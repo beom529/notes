@@ -1,6 +1,27 @@
 
 > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=1&selection=140,17,141,22|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.1]]
-> > intent-based networking (IBN)
+> > > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=100,2,101,61|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
+> > do not specify update consistency guarantees or how updates ought to be implemented
+> 
+
+> [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=129,42,129,59|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
+> > strawman approach
+> 
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=45,63,45,64|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
+> > .
+> 
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=136,0,138,10|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
+> > link prediction algorithms
+> 
+> 
+> 
+> [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=129,45,130,46|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
+> > awman approach that finds all possible orders in which flow rules 
+> 
+> orized Access in Intent-Based Networking.pdf#page=2&selection=123,26,124,62|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
+> >  identify high-risk intent updates before attempting to install the resulting flow rules on the network.
+> 
+> ## Proposed Solution 
 > 
 > > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=1&selection=160,50,164,0|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.1]]
 > > each intent is compiled into a set of flow rules through intent compilation
