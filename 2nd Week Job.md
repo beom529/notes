@@ -1,5 +1,9 @@
 
 # 1. 벤 페이퍼 읽기
+annotation-target: obsidian://open?vault=note&file=Research%2FPaper%2FExploiting%20Temporal%20Vulnerabilities%20for%20Unauthorized%20Access%20in%20Intent-Based%20Networking.pdf
+
+
+
 
 ## Context
 
