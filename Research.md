@@ -14,6 +14,12 @@
 > > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=67,25,70,43|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
 > > monitoring flow installation, delaying installation of specific rules, or forcing intents recompilations by an honest controller, all with the goal of creating an inconsistency that gives the attacker unauthorized access
 > 
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=12&selection=19,35,20,36|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.12]]
+> > detect the first temporal vulnerability in the fat tree topology.
+> 
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=12&selection=87,59,87,64|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.12]]
+> > topol
+> 
 > 
 > > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=4,10,5,51|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
 > > ntended behavior of all flow rules becomes actionable and consistent at the same time when flows are updated.
