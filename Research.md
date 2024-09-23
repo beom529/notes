@@ -13,6 +13,9 @@
 > > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=136,0,138,10|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
 > > link prediction algorithms
 > 
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=166,15,167,52|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
+> > space of temporal attacks in IBN and show different ways in which an attacker can exploit them
+> 
 > 
 > 
 > [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=129,45,130,46|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
