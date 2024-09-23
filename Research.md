@@ -8,6 +8,12 @@
 > 
 > > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=1&selection=165,0,168,19|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.1]]
 > > individual flow rules corresponding to each intent are sent to the devices through intent installation
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=65,27,65,48|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
+> > IBN temporal attacks.
+> 
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=67,25,70,43|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
+> > monitoring flow installation, delaying installation of specific rules, or forcing intents recompilations by an honest controller, all with the goal of creating an inconsistency that gives the attacker unauthorized access
+> 
 > 
 > > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=4,10,5,51|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
 > > ntended behavior of all flow rules becomes actionable and consistent at the same time when flows are updated.
