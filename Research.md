@@ -16,6 +16,30 @@
 > > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=166,15,167,52|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
 > > space of temporal attacks in IBN and show different ways in which an attacker can exploit them
 > 
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=3&selection=33,1,37,21|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.3]]
+> > flow rules to the network’s forwarding devices (e.g., switches and routers)
+> 
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=3&selection=40,8,40,36|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.3]]
+> > (1) an ingress port to match
+> 
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=3&selection=40,38,41,18|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.3]]
+> > (2) an egress port to forward the packet out on,
+> 
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=3&selection=41,23,42,29|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.3]]
+> > (3) a set of header fields (e.g., IP destination address for routing) to match
+> 
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=3&selection=46,13,46,21|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.3]]
+> > actively
+> 
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=3&selection=46,25,46,34|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.3]]
+> > passively
+> 
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=3&selection=57,25,57,26|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.3]]
+> > s
+> 
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=3&selection=57,24,58,31|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.3]]
+> > establish or remove connectivity between at least two endpoints 
+> 
 > 
 > 
 > [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=129,45,130,46|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
