@@ -1,6 +1,6 @@
 
 > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=1&selection=140,17,141,22|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.1]]
-> > intentbased networking (IBN)
+> > intent-based networking (IBN)
 > 
 > > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=1&selection=160,50,164,0|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.1]]
 > > each intent is compiled into a set of flow rules through intent compilation
@@ -17,11 +17,11 @@
 > > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=12&selection=19,35,20,36|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.12]]
 > > detect the first temporal vulnerability in the fat tree topology.
 > 
-> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=12&selection=87,59,87,64|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.12]]
-> > topol
 > 
+> > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=73,33,74,36|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
+> >  transient connections to other hosts that are not specified by the intent
 > 
+> Attack Goal > 
 > > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=4,10,5,51|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
 > > ntended behavior of all flow rules becomes actionable and consistent at the same time when flows are updated.
-> 
-> 
+
