@@ -22,6 +22,15 @@
 > > [!PDF|] [[(8) Exploring the Unknown DTLS Universe Analysis of the DTLS Server Ecosystem on the Internet.pdf#page=3&selection=45,29,52,16|(8) Exploring the Unknown DTLS Universe Analysis of the DTLS Server Ecosystem on the Internet, p.3]]
 > > encrypted Finished message or the ChangeCipherSpec
 > 
+> > [!PDF|250, 205, 90] [[(5) ResolverFuzz Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing.pdf#page=14&annotation=1067R|(5) ResolverFuzz Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing, p.14]]
+> > stateful fuzzing, differential testing, and grammar-based fuzzing.
+> 
+> > [!PDF|250, 205, 90] > [!PDF|250, 205, 90] [[(5) ResolverFuzz Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing.pdf#page=14&annotation=1067R|(5) ResolverFuzz Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing, p.14]]
+> > stateful fuzzing, differential testing, and grammar-based fuzzing.
+> 
+> [[(5) ResolverFuzz Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing.pdf#page=14&annotation=1067R|(5) ResolverFuzz Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing, p.14]]
+> > stateful fuzzing, differential testing, and grammar-based fuzzing.
+> 
 > > [!PDF|] [[(8) Exploring the Unknown DTLS Universe Analysis of the DTLS Server Ecosystem on the Internet.pdf#page=2&selection=34,36,36,36|(8) Exploring the Unknown DTLS Universe Analysis of the DTLS Server Ecosystem on the Internet, p.2]]
 > > en-source tool TLSScanner with support for DTLS and implemented additional tests for DTLS-exclusive features. W
 > DTLS 설정 확인툴을 만들어서 배포함
