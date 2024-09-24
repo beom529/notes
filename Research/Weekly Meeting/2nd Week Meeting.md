@@ -1,4 +1,4 @@
-> [!PDF|] [[(8) Exploring the Unknown DTLS Universe Analysis of the DTLS Server Ecosystem on the Internet.pdf#page=2&selection=108,40,120,14|(8) Exploring the Unknown DTLS Universe Analysis of the DTLS Server Ecosystem on the Internet, p.2]]
+> [!PDF] [[(8) Exploring the Unknown DTLS Universe Analysis of the DTLS Server Ecosystem on the Internet.pdf#page=2&selection=108,40,120,14|(8) Exploring the Unknown DTLS Universe Analysis of the DTLS Server Ecosystem on the Internet, p.2]]
 > > pen-source tools TLSAttacker [ 1, 54 ] and TLS-Scanner [2 ] to analyze DTLS implementations.
 > 
 > > [!PDF|] [[(8) Exploring the Unknown DTLS Universe Analysis of the DTLS Server Ecosystem on the Internet.pdf#page=2&selection=104,15,104,23|(8) Exploring the Unknown DTLS Universe Analysis of the DTLS Server Ecosystem on the Internet, p.2]]
@@ -27,6 +27,9 @@
 > 
 > > [!PDF|250, 205, 90] > [!PDF|250, 205, 90] [[(5) ResolverFuzz Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing.pdf#page=14&annotation=1067R|(5) ResolverFuzz Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing, p.14]]
 > > stateful fuzzing, differential testing, and grammar-based fuzzing.
+> 
+> > [!PDF|] [[(5) ResolverFuzz Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing.pdf#page=4&selection=327,14,327,28|(5) ResolverFuzz Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing, p.4]]
+> > aforementioned
 > 
 > [[(5) ResolverFuzz Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing.pdf#page=14&annotation=1067R|(5) ResolverFuzz Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing, p.14]]
 > > stateful fuzzing, differential testing, and grammar-based fuzzing.
