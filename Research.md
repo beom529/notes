@@ -74,4 +74,5 @@
 > > ntended behavior of all flow rules becomes actionable and consistent at the same time when flows are updated.
 
 Problem 맨처음에 도입할것 - Solution 연결
-컴퓨터의 성능을 잘 보여줄것
+컴퓨터의 성능을 잘 보여줄것
+Deterministic Process
