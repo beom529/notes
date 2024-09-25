@@ -73,9 +73,6 @@
 > > [!PDF|] [[Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking.pdf#page=2&selection=4,10,5,51|Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-Based Networking, p.2]]
 > > ntended behavior of all flow rules becomes actionable and consistent at the same time when flows are updated.
 
-Problem 맨처음에 도입할걸
-	DOS
-	Key Recovery
-	Downgrade
+Problem 맨처음에 도입할것
+컴퓨터의 성능을 잘 보여줄것
 
-Ensen
