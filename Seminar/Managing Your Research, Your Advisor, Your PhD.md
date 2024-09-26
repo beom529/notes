@@ -16,3 +16,11 @@ Advisor relationship, meetings, communication
 Unnoted
 	Manager of the project
 
+Weekley meeting 전에 다 해라
+
+Avoiding advisor
+
+Lead time?
+	2 papers
+	the more I read papers the more I don;'t knw thji
+
