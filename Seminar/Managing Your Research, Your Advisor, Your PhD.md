@@ -24,3 +24,6 @@ Lead time?
 	2 papers
 	the more I read papers the more I don;'t knw thji
 
+Smaller work 하지마
+
+Contents control
