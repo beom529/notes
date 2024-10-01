@@ -37,7 +37,7 @@ Receiver
 ```mermaid
 stateDiagram-v2
 [*] --> Idle
-Idle --> : Snapshot
+Idle --> "Recording": "Snapshot Starts"
 ```
 s1 --> s2: A transition
 s2 : This is a state description
