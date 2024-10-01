@@ -45,6 +45,9 @@ Waiting --> End: Received messages from every other processes
 s1 --> s2: A transition
 s2 : This is a state description
 
+## Receiver
+
+
 ```mermaid
 stateDiagram-v2
     [*] --> Idle: 프로세스 시작 대기
