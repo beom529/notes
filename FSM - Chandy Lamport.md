@@ -9,7 +9,7 @@ Waiting --> Idle : Snapshot Complete
 ```mermaid
 stateDiagram-v2
 [*] --> Idle
-Idle --> Processing : Token Received
+Idle --> Processing :Token Received
 Processing --> Waiting : Marker Sent
 Waiting --> Idle : Snapshot Complete
 ```
@@ -31,3 +31,13 @@ Receiver
 			2. OR) Not gonna be recorded
 		3. Send Marker to everyone
 		4. $C_ki$ 빼고는 전부 다 record
+
+
+# Sender
+```mermaid
+stateDiagram-v2
+[*] --> Idle
+Idle --> : Snapshot
+```
+s1 --> s2: A transition
+s2 : This is a state description
