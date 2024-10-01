@@ -67,3 +67,22 @@ stateDiagram-v2
     FirstMarkerReceived --> ClosingInitialChannel: 첫 Marker 수신 시 해당 채널 닫기
     ClosingInitialChannel --> RecordingChannelStates: 다른 채널 기록 시작
 ```
+
+
+예를 들어 P1,P2,P3,P4가 있으면
+
+  
+
+1. P1이 스냅샷을 시작한다
+2. P1이 상태를 저장한다
+3. P1 이 P2,P3,P4에 마커를 보낸다
+4. P2,P3,P4는 마커를 받은 채널을 폐쇠한다 (더이상 받지 않음)
+	1. 폐쇠된 채널
+		1. P1->P2
+		2. P1->P3
+		3. P1->P4
+5. P2,P3,P4는 상태저장을 시작한다 (순간저장이 아니라 지속적으로 저장한다)
+6. 각각 다른채널로 마커를 보낸다
+	1. P2->P3,P4
+	2. P3->P2,P4
+	3. P4->P3,P4
