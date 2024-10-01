@@ -37,7 +37,10 @@ Receiver
 ```mermaid
 stateDiagram-v2
 [*] --> Idle
-Idle --> "Recording": "Snapshot Starts"
+Idle --> Recording: Snapshot Starts
+Recording --> Waiting: Send Marker Messages to all the other processes
+Waiting --> Waiting: Receive Messages fro the individual hosts
+Waiting --> End: Received messages from every other processes
 ```
 s1 --> s2: A transition
 s2 : This is a state description
