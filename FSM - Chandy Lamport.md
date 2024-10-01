@@ -24,6 +24,7 @@ Waiting --> Idle : Snapshot Complete
 Receiver
 1. Marker Message Arrived
 	1. Has seen
+		1. Stop Recording
 	2. First
 		1. Record its state - 기록하고
 		2. Mark the channel (Close) - 들어온 큐 막고
