@@ -50,10 +50,10 @@ s2 : This is a state description
 
 ```mermaid
 stateDiagram-v2
-    [*] --> Idle: 프로세스 시작 대기
-    Idle --> FirstMarkerReceived: 첫 번째 Marker 수신
-    FirstMarkerReceived --> RecordingLocalState: 로컬 상태 기록
-    RecordingLocalState --> SendingMarkers: Marker 전송 (아웃고잉 채널)
+    [*] --> Idle: Program IDLE
+    Idle --> FirstMarkerReceived: Receiving the first marker from the sender
+    FirstMarkerReceived --> RecordingLocalState: Recording the current STATES
+    RecordingLocalState --> SendingMarkers: Send Markers to outgoing channels BUT outgoing channel from the first sender
     SendingMarkers --> RecordingChannelStates: 채널 상태 기록 중
     RecordingChannelStates --> WaitingForMoreMarkers: 다른 채널로부터 Marker 수신 대기
 
