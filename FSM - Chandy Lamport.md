@@ -29,7 +29,7 @@ Receiver
 		2. Mark the channel (Close) - 들어온 큐 막고
 			1. NO MORE MESSAGE TO COME
 			2. OR) Not gonna be recorded
-		3. Send Marker to everyone - 마커 너모자 
+		3. Send Marker to everyone - 마커 init 한애 빼고 다 보내기
 		4. $C_ki$ 빼고는 전부 다 record
 
 
