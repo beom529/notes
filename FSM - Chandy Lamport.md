@@ -14,7 +14,7 @@ Processing --> Waiting : Marker Sent
 Waiting --> Idle : Snapshot Complete
 ```
 
-
+보내는 입장
 1. Snapshot initiated
 2. Record its own state
 3. Send Marker to each channel (Every processes)
