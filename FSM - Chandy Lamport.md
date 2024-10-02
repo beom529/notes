@@ -69,7 +69,20 @@ stateDiagram-v2
     ClosingInitialChannel --> RecordingChannelStates: 다른 채널 기록 시작
 ```
 
+```mermaid
+stateDiagram-v2
+    [*] --> NormalOperation
 
+    NormalOperation --> RecordingState: Initiate Snapshot
+    NormalOperation --> RecordingState: Receive First Marker
+
+    RecordingState --> RecordingState: Send Markers on Outgoing Channels
+    RecordingState --> RecordingState: Receive Application Message on Recording Channel / Record Message
+    RecordingState --> RecordingState: Receive Marker on Recording Channel / Stop Recording on Channel
+    RecordingState --> SnapshotComplete: Markers Received on All Incoming Channels
+
+    SnapshotComplete --> NormalOperation: Resume Normal Operation
+```
 예를 들어 P1,P2,P3,P4가 있으면
 
   
