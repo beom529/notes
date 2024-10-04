@@ -580,4 +580,10 @@ sequenceDiagram
 
 
 Leadership
-	
+	1. Ignore -> Leamessages from me
+PAXOS
+
+1. Leadership process how works?
+	1. After detecting failure?
+
+VID -> collectivley inrement
