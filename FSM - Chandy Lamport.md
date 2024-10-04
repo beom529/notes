@@ -142,3 +142,61 @@ graph TD
     s2 --> h3
     s2 --> h4
 ```
+
+```mermaid
+graph TD
+    subgraph Spine Layer
+        Spine1["Spine 스위치 1"]
+        Spine2["Spine 스위치 2"]
+    end
+
+    subgraph Leaf Layer
+        Leaf1["Leaf 스위치 1"]
+        Leaf2["Leaf 스위치 2"]
+        Leaf3["Leaf 스위치 3"]
+        Leaf4["Leaf 스위치 4"]
+    end
+
+    subgraph Hosts
+        H1["호스트 H1"]
+        H2["호스트 H2"]
+        H3["호스트 H3"]
+        H4["호스트 H4"]
+        H5["호스트 H5"]
+        H6["호스트 H6"]
+        H7["호스트 H7"]
+        H8["호스트 H8"]
+    end
+
+    %% Spine-Leaf 연결
+    Spine1 --- Leaf1
+    Spine1 --- Leaf2
+    Spine1 --- Leaf3
+    Spine1 --- Leaf4
+
+    Spine2 --- Leaf1
+    Spine2 --- Leaf2
+    Spine2 --- Leaf3
+    Spine2 --- Leaf4
+
+    %% Leaf-호스트 연결
+    Leaf1 --- H1
+    Leaf1 --- H2
+
+    Leaf2 --- H3
+    Leaf2 --- H4
+
+    Leaf3 --- H5
+    Leaf3 --- H6
+
+    Leaf4 --- H7
+    Leaf4 --- H8
+
+    %% 컨트롤러 연결
+    Controller["컨트롤러"] --> Spine1
+    Controller --> Spine2
+    Controller --> Leaf1
+    Controller --> Leaf2
+    Controller --> Leaf3
+    Controller --> Leaf4
+```
