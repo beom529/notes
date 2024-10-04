@@ -310,3 +310,76 @@ graph TD
 
     %% Note: H1 and S1 are measurement nodes
 ```
+
+```mermaid
+graph TD
+    %% Spine Layer
+    Spine1[Spine Switch 1]
+    Spine2[Spine Switch 2]
+
+    %% Leaf Layer
+    Leaf1[Leaf Switch 1]
+    Leaf2[Leaf Switch 2]
+    Leaf3[Leaf Switch 3]
+    Leaf4[Leaf Switch 4]
+
+    %% Hosts connected to Leaf1
+    H1[Host H1]
+    H2[Host H2]
+    H3[Host H3]
+    H4[Host H4]
+    Leaf1 --- H1
+    Leaf1 --- H2
+    Leaf1 --- H3
+    Leaf1 --- H4
+
+    %% Hosts connected to Leaf2
+    H5[Host H5]
+    H6[Host H6]
+    H7[Host H7]
+    H8[Host H8]
+    Leaf2 --- H5
+    Leaf2 --- H6
+    Leaf2 --- H7
+    Leaf2 --- H8
+
+    %% Hosts connected to Leaf3
+    H9[Host H9]
+    H10[Host H10]
+    H11[Host H11]
+    H12[Host H12]
+    Leaf3 --- H9
+    Leaf3 --- H10
+    Leaf3 --- H11
+    Leaf3 --- H12
+
+    %% Hosts connected to Leaf4
+    H13[Host H13]
+    H14[Host H14]
+    H15[Host H15]
+    H16[Host H16]
+    Leaf4 --- H13
+    Leaf4 --- H14
+    Leaf4 --- H15
+    Leaf4 --- H16
+
+    %% Spine-Leaf connections
+    Spine1 --- Leaf1
+    Spine1 --- Leaf2
+    Spine1 --- Leaf3
+    Spine1 --- Leaf4
+
+    Spine2 --- Leaf1
+    Spine2 --- Leaf2
+    Spine2 --- Leaf3
+    Spine2 --- Leaf4
+
+    %% Controller connection
+    Controller[Controller]
+    Controller --> Spine1
+    Controller --> Spine2
+    Controller --> Leaf1
+    Controller --> Leaf2
+    Controller --> Leaf3
+    Controller --> Leaf4
+```
