@@ -124,3 +124,21 @@ flowchart TD
     J --> K[REPLY Not Delivered to Client]
     K --> L[Client Request Incomplete]
 ```
+
+```mermaid
+graph TD
+    Controller["Controller"]
+    s1["Switch s1"]
+    s2["Switch s2"]
+    h1["Host h1"]
+    h2["Host h2"]
+    h3["Host h3"]
+    h4["Host h4"]
+
+    Controller -- "P4Runtime API" --> s1
+    s1 --> h1
+    s1 --> h2
+    s1 --> s2
+    s2 --> h3
+    s2 --> h4
+```
