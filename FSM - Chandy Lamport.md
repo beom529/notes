@@ -230,3 +230,44 @@ sequenceDiagram
     p0-->>Client: REPLY (r2)
 ```
 
+
+
+```mermaid
+graph TD
+    subgraph Controller
+        C[컨트롤러]
+    end
+
+    subgraph Switches
+        S1[스위치 S1 (BMv2)]
+        S2[스위치 S2 (BMv2)]
+    end
+
+    subgraph Hosts
+        H1[호스트 H1]
+        H2[호스트 H2]
+        H3[호스트 H3]
+        H4[호스트 H4]
+    end
+
+    %% 컨트롤러와 스위치 연결
+    C -->|P4Runtime API| S1
+    C -->|P4Runtime API| S2
+
+    %% 스위치와 호스트 연결
+    S1 --- H1
+    S1 --- H2
+    S2 --- H3
+    S2 --- H4
+
+    %% 스위치 간 연결
+    S1 --- S2
+
+    %% 측정 노드 표시
+    H1:::measurement_node
+    S1:::measurement_node
+
+    classDef measurement_node fill:#f9f,stroke:#333,stroke-width:2px;
+
+    %% 설명: H1과 S1이 측정 노드임을 표시
+```
