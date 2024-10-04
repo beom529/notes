@@ -567,22 +567,13 @@ sequenceDiagram
     participant p3
     participant p4
 
-    p1->>p0: READY-TO-COMMIT
-    p0-->>p2: PRE-PREPARE (n=0)
-    p0-->>p3: PRE-PREPARE (n=1) (Faulty)
-    p2-->>p0: PREPARE (n=0)
-    p3-->>p0: PREPARE (n=1)
-    p2-->>p0: COMMIT (n=0)
-    p3-->>p0: COMMIT (n=1)
-    p0-->>Client: REPLY (r1)
-    
-    Client->>p0: REQUEST (r2)
-    p0-->>p2: PRE-PREPARE (n=1)
-    p0-->>p3: PRE-PREPARE (n=1)
-    p2-->>p0: PREPARE (n=1)
-    p3-->>p0: PREPARE (n=1)
-    p2-->>p0: COMMIT (n=1)
-    p3-->>p0: COMMIT (n=1)
+    p1->>p2: READY-TO-COMMIT
+    p1->>p3: READY-TO-COMMIT
+    p1->>p4: READY-TO-COMMIT
 
-    p0-->>Client: REPLY (r2)
+	p2->>p1: OK
+	p3->>p1: OK
+	
+
 ```
+
