@@ -587,3 +587,5 @@ PAXOS
 	1. After detecting failure?
 
 VID -> collectivley inrement
+
+MEMBERSHIP SERVICE
