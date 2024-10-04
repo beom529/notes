@@ -597,3 +597,8 @@ f+1
 			끝까지 기다리고 다음번 라운드에 보낸다
 			매 라운드마다 fail 하는 프로세스가 하나씩 있으면
 				2(f+1)
+
+Reliable Multi-cast
+FLP
+	Possibility - NO
+	
