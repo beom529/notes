@@ -573,7 +573,7 @@ sequenceDiagram
 
 	p2->>p1: OK
 	p3->>p1: OK
-	
+
+
 
 ```
-
