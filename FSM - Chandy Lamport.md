@@ -383,3 +383,85 @@ graph TD
     Controller --> Leaf3
     Controller --> Leaf4
 ```
+
+```
+```
+
+
+
+
+
+```mermaid
+graph TD
+    %% Controller
+    Controller[Controller]
+
+    %% Spine Layer
+    Spine1[Spine Switch 1]
+    Spine2[Spine Switch 2]
+
+    %% Leaf Layer (Programmable Switches)
+    Leaf1[Leaf Switch 1 (Programmable)]
+    Leaf2[Leaf Switch 2 (Programmable)]
+    Leaf3[Leaf Switch 3 (Programmable)]
+    Leaf4[Leaf Switch 4 (Programmable)]
+
+    %% Hosts connected to Leaf1
+    Client1[Client H1]
+    Client2[Client H2]
+    Server1[Server H3]
+    Server2[Server H4]
+    Leaf1 --- Client1
+    Leaf1 --- Client2
+    Leaf1 --- Server1
+    Leaf1 --- Server2
+
+    %% Hosts connected to Leaf2
+    Client3[Client H5]
+    Client4[Client H6]
+    Server3[Server H7]
+    Server4[Server H8]
+    Leaf2 --- Client3
+    Leaf2 --- Client4
+    Leaf2 --- Server3
+    Leaf2 --- Server4
+
+    %% Hosts connected to Leaf3
+    Client5[Client H9]
+    Client6[Client H10]
+    Server5[Server H11]
+    Server6[Server H12]
+    Leaf3 --- Client5
+    Leaf3 --- Client6
+    Leaf3 --- Server5
+    Leaf3 --- Server6
+
+    %% Hosts connected to Leaf4
+    Client7[Client H13]
+    Client8[Client H14]
+    Server7[Server H15]
+    Server8[Server H16]
+    Leaf4 --- Client7
+    Leaf4 --- Client8
+    Leaf4 --- Server7
+    Leaf4 --- Server8
+
+    %% Spine-Leaf connections
+    Spine1 --- Leaf1
+    Spine1 --- Leaf2
+    Spine1 --- Leaf3
+    Spine1 --- Leaf4
+
+    Spine2 --- Leaf1
+    Spine2 --- Leaf2
+    Spine2 --- Leaf3
+    Spine2 --- Leaf4
+
+    %% Controller connections
+    Controller --> Spine1
+    Controller --> Spine2
+    Controller --> Leaf1
+    Controller --> Leaf2
+    Controller --> Leaf3
+    Controller --> Leaf4
+```
