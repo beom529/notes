@@ -557,3 +557,31 @@ graph TD
 
     %% 노트: 측정을 수행하는 장비들은 색상이 변경되어 있습니다.
 ```
+
+
+
+```mermaid
+sequenceDiagram 
+    participant Client
+    participant p0
+    participant p2
+    participant p3
+
+    Client->>p0: REQUEST (r1)
+    p0-->>p2: PRE-PREPARE (n=0)
+    p0-->>p3: PRE-PREPARE (n=1) (Faulty)
+    p2-->>p0: PREPARE (n=0)
+    p3-->>p0: PREPARE (n=1)
+    p2-->>p0: COMMIT (n=0)
+    p3-->>p0: COMMIT (n=1)
+    p0-->>Client: REPLY (r1)
+    
+    Client->>p0: REQUEST (r2)
+    p0-->>p2: PRE-PREPARE (n=1)
+    p0-->>p3: PRE-PREPARE (n=1)
+    p2-->>p0: PREPARE (n=1)
+    p3-->>p0: PREPARE (n=1)
+    p2-->>p0: COMMIT (n=1)
+    p3-->>p0: COMMIT (n=1)
+    p0-->>Client: REPLY (r2)
+```
