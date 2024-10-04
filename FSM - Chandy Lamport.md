@@ -108,3 +108,19 @@ MARKER 주석
 
 
 `````
+
+
+```mermaid
+flowchart TD
+    A[Client Request] --> B[Send REQUEST to Leader]
+    B --> C[Leader (p0) Broadcast PRE-PREPARE message]
+    C --> D[Omission Fault]
+    D --> E[PRE-PREPARE Message Not Received by p3]
+    E --> F[p3 Does Not Participate in Execution]
+    F --> G[p2 Collects 2f + 1 PREPARE Messages]
+    G --> H[p2 Collects 2f + 1 COMMIT Messages]
+    H --> I[p2 Sends REPLY to Client]
+    I --> J[Omission Fault]
+    J --> K[REPLY Message Not Delivered to Client]
+    K --> L[Client Request Incomplete (Fails)]
+```
