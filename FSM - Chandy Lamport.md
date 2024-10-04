@@ -562,12 +562,12 @@ graph TD
 
 ```mermaid
 sequenceDiagram 
-    participant Client
-    participant p0
+    participant p1
     participant p2
     participant p3
+    participant p4
 
-    Client->>p0: REQUEST (r1)
+    p1->>p0: READY-TO-COMMIT
     p0-->>p2: PRE-PREPARE (n=0)
     p0-->>p3: PRE-PREPARE (n=1) (Faulty)
     p2-->>p0: PREPARE (n=0)
@@ -583,5 +583,6 @@ sequenceDiagram
     p3-->>p0: PREPARE (n=1)
     p2-->>p0: COMMIT (n=1)
     p3-->>p0: COMMIT (n=1)
+
     p0-->>Client: REPLY (r2)
 ```
