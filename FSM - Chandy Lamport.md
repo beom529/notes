@@ -589,3 +589,11 @@ PAXOS
 VID -> collectivley inrement
 
 MEMBERSHIP SERVICE
+
+
+f+1
+	2라운드 얼마나 만은 라우드가 있는가?
+		Round? = Delta =
+			끝까지 기다리고 다음번 라운드에 보낸다
+			매 라운드마다 fail 하는 프로세스가 하나씩 있으면
+				2(f+1)
