@@ -601,4 +601,73 @@ f+1
 Reliable Multi-cast
 FLP
 	Possibility - NO
-	
+
+
+```mermaid
+sequenceDiagram
+    participant P1 as P1 (Coordinator)
+    participant P2 as P2 (Replica)
+    participant P3 as P3 (Replica)
+    participant P4 as P4 (Replica)
+
+    P1->>P2: ready_to_commit
+    P1->>P3: ready_to_commit
+    P1->>P4: ready_to_commit
+    
+    P2-->>P1: ok
+    P3-->>P1: ok
+    
+    P1->>P1: Crash (P1)
+    P4->>P4: Crash (P4)
+
+    P2->>P2: Waiting (Blocked)
+    P3->>P3: Waiting (Blocked)
+```
+```mermaid
+sequenceDiagram
+    participant P1 as P1 (Coordinator)
+    participant P2 as P2 (Replica)
+    participant P3 as P3 (Replica)
+    participant P4 as P4 (Replica)
+
+    P1->>P2: ready_to_commit
+    P1->>P3: ready_to_commit
+    P1->>P4: ready_to_commit
+    
+    P2-->>P1: ok
+    P3-->>P1: ok
+    P4-->>P1: ok
+    
+    P1->>P2: prepare_to_commit
+    P1->>P3: prepare_to_commit
+    P1->>P4: prepare_to_commit
+
+    P1->>P1: Crash (P1)
+
+    P2->>P2: Commit
+    P3->>P3: Commit
+    P4->>P4: Commit
+```
+```mermaid
+sequenceDiagram
+    participant P1 as P1 (Coordinator)
+    participant P2 as P2 (Replica)
+    participant P3 as P3 (Replica)
+    participant P4 as P4 (Replica)
+
+    P1->>P2: ready_to_commit
+    P1->>P3: ready_to_commit
+    P1->>P4: ready_to_commit
+    
+    P2-->>P1: ok
+    P3-->>P1: ok
+    P4-->>P1: ok
+    
+    P1->>P2: prepare_to_commit
+    
+    P1->>P1: Crash (P1)
+    P2->>P2: Crash (P2)
+
+    P3->>P3: Waiting (Blocked)
+    P4->>P4: Waiting (Blocked)
+```
