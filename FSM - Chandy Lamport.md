@@ -671,3 +671,33 @@ sequenceDiagram
     P3->>P3: Waiting (Blocked)
     P4->>P4: Waiting (Blocked)
 ```
+
+```mermaid
+stateDiagram-v2
+    [*] --> Init
+    Init --> WaitingForToken: Waiting for Token
+    WaitingForToken --> HasToken: Received Token
+    HasToken --> SendToken: Prepare to Send Token
+    SendToken --> WaitingForToken: Token Sent
+
+    WaitingForToken --> MarkerReceived: Received Marker
+    MarkerReceived --> RecordState: Record State
+    RecordState --> SendMarkers: Prepare to Send Markers
+    SendMarkers --> WaitingForMarkerResponses: Markers Sent
+
+    WaitingForMarkerResponses --> AllMarkersReceived: All Markers Received
+    AllMarkersReceived --> CompleteSnapshot: Snapshot Complete
+    CompleteSnapshot --> WaitingForToken
+
+    state HasToken {
+        [*] --> UpdateState: Update State
+        UpdateState --> DelayToken: Token Delay
+        DelayToken --> ReadyToSend: Ready to Send Token
+    }
+
+    state SendMarkers {
+        [*] --> MarkerDelay: Marker Delay
+        MarkerDelay --> SendMarkerToNext: Send Marker to Next Process
+    }
+```
+
