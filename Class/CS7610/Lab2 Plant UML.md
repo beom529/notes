@@ -1,11 +1,15 @@
 
-@startuml TokenPassStateDiagram
-[*] --> WaitingForToken
+@startuml
+[*] --> Idle
 
-WaitingForToken --> HasToken : Receive Token
-HasToken --> SendingToken : Send Token to Successor
-SendingToken --> WaitingForToken : Token Sent
-HasToken --> WaitingForToken : Pass Token after Delay
+Idle --> InitiateToken : If Initiator and No Token
+InitiateToken --> EnqueueToken : Create Token and Enqueue to Outgoing Channel
+EnqueueToken --> HoldingToken : Token Enqueued
+
+HoldingToken --> SendingToken : After Token Delay
+
+WaitingForToken --> EnqueueToken : Receive Token
+SendingToken --> WaitingForToken : Token Sent to Successor
 @enduml
 
 
