@@ -2,14 +2,13 @@
 @startuml
 [*] --> Idle
 
-Idle --> InitiateToken : If Initiator and No Token
-InitiateToken --> EnqueueToken : Create Token and Enqueue to Outgoing Channel
-EnqueueToken --> HoldingToken : Token Enqueued
+InitiatePasstoken --> SendPasstoken : Generate Passtoken (Initiator)
 
-HoldingToken --> SendingToken : After Token Delay
 
-WaitingForToken --> EnqueueToken : Receive Token
-SendingToken --> WaitingForToken : Token Sent to Successor
+Idle --> ReceivePasstoken : Receive Passtoken (Non-Init)
+ReceivePasstoken --> ProcessPasstoken : Process Passtoken
+ProcessPasstoken --> SendPasstoken : Forward Passtoken (To Next)
+SendPasstoken --> Idle : Wait for the token
 @enduml
 
 
