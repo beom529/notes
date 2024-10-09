@@ -22,3 +22,10 @@ stateDiagram-v2
     AllMarkersReceived --> CompleteSnapshot: Snapshot Complete
     CompleteSnapshot --> WaitingForMarker: Return to Waiting for Next Marker
 ```
+
+```mermaid
+flowchart LR
+TCP Connection --> Stop
+```
+
+
