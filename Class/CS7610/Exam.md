@@ -46,7 +46,7 @@ f+1 round
 
 
 # Asynchronous
-
+There is no deterministic algorithm that solves consensus in asynchronous settings with failures.
 
 ## FLP
 FLP 정리는 **비동기 시스템**(메시지가 언제 도착할지 알 수 없고, 컴퓨터가 멈출 수 있는 시스템)에서 **단 하나의 컴퓨터라도 멈출 가능성이 있다면**:
