@@ -38,8 +38,14 @@
 ### Synchronous System with Crash Failures
 f+1 round
 
+# Failure Detector
+## 1. Accuracy
+## 2. Completeness
 
-# Asychronous
+
+# Asynchronous
+
+
 ## FLP
 FLP 정리는 **비동기 시스템**(메시지가 언제 도착할지 알 수 없고, 컴퓨터가 멈출 수 있는 시스템)에서 **단 하나의 컴퓨터라도 멈출 가능성이 있다면**:
 - 비동기 시스템은 메세지 도착을 모른다
