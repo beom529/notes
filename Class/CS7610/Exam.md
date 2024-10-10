@@ -74,4 +74,24 @@ FLP 정리는 **비동기 시스템**(메시지가 언제 도착할지 알 수 �
 Fault Tolerant
 
 # Ring
-1. 
+### Model
+1. Unique UD
+2. 1 P = 1 machine
+3. 1P tknows others
+4. NO STATUs
+5. Different Network Topologies
+6. Highest ID new cordinator
+7. 1 Way
+	1. Clockwise
+8. 2 Elections? = 1 leasder with highest ID
+9. Go back to the initiator
+
+### How works?
+1. 이번 리더가 죽으면
+	1. 선거 메세지를 다음 애 한테 보낸다 (ID)
+2. ELECTION 메세지를 받으면
+	1. 내 이름을 추가하고 다음으로 넘긴다
+3. 시작한사람한테 돌아오면
+	1. LEADER 메세지를 보낸다
+4. LEADER 메세지가 돌아오면
+	1. 끝
