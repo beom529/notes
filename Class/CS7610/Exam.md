@@ -31,3 +31,9 @@
 1. Agreement 모든 노드는 같은 값으로 consensus
 2. Validity 값을 정할라면 그 값을 띄운 프로세스가 있다
 
+# 수식
+## Consensus
+## Synchronous System without Crash Failures
+1 Round
+### Synchronous System with Crash Failures
+f+1 round
