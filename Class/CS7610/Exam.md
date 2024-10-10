@@ -41,4 +41,11 @@ f+1 round
 
 # Asychronous
 ## FLP
+Bivalent 의 상황에서 시스템이 특정 상항에 빠져 합의를 못하는 경우
 ## Valency
+### 0 Valent
+어떠한 경우도 0으로 결론이 난다
+### 1 Valent
+어떠한 경우도 1으로 결론이 난다
+### BiValent
+아직 모른다
