@@ -37,3 +37,8 @@
 1 Round
 ### Synchronous System with Crash Failures
 f+1 round
+
+
+# Asychronous
+## FLP
+## Valency
