@@ -71,4 +71,7 @@ FLP 정리는 **비동기 시스템**(메시지가 언제 도착할지 알 수 �
 아직 모른다
 
 
-Fault Tolerant 
+Fault Tolerant
+
+# Ring
+1. 
