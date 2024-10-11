@@ -95,3 +95,24 @@ Fault Tolerant
 	1. LEADER 메세지를 보낸다
 4. LEADER 메세지가 돌아오면
 	1. 끝
+
+# Bully
+1. Sychronous
+2. Each other's ID
+3. Failure detector
+	1. Message Transmission Time
+	2. Processing Time
+
+## Election Trigger
+1. 코디네이터 죽으면
+2. 코디네이터가 살아나면
+
+# 원리
+높은 번호의 프로세스가 낮은 번호를 괴롭힌다 한개의 프로세스가 남을때 까지
+1. Election 메세지를 높은 ID로만 보낸다
+	1. OK 메세지가 있으면
+		1. wait for the LEADER message, if not coming, start a new election algorithm
+	2. OK 메세지가 없으면
+		1. send LEADER to all lower processes (Leader Selected)
+# 실패시
+자동으로 next highest ID process가 LEADER 메세지를 보낸다
