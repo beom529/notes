@@ -127,3 +127,14 @@ Fault Tolerant
 ```
 	RING
 ```
+
+
+
+# Multicast
+## Property
+### 1. Intergrity
+메세지를 한번만 보낸다
+### 2. Validity
+언젠가는 자기가 메세지를 보낸다
+### 3.Agreement
+언젠가는 자기가 메세지를 받는다
