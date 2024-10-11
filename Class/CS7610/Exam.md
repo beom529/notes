@@ -104,8 +104,8 @@ Fault Tolerant
 	2. Processing Time
 
 ## Election Trigger
-1. 코디네이터 죽으면
-2. 코디네이터가 살아나면
+1. Codrinator 죽으면
+2. Cordinator 살아나면
 
 # 원리
 높은 번호의 프로세스가 낮은 번호를 괴롭힌다 한개의 프로세스가 남을때 까지
@@ -116,3 +116,14 @@ Fault Tolerant
 		1. send LEADER to all lower processes (Leader Selected)
 # 실패시
 자동으로 next highest ID process가 LEADER 메세지를 보낸다
+
+# 몇개?
+1. Best Case
+	1. Second highest identifiew detects failure, elects it self
+2. Worst Case
+	1. Lowest identifier detects failure
+
+
+```
+	RING
+```
