@@ -1,14 +1,13 @@
 
 @startuml
-[*] --> Idle
+[*] --> Waiting : Start / Receive Passtoken
 
-InitiatePasstoken --> SendPasstoken : Generate Passtoken (Initiator)
+Waiting --> Processing : Process Passtoken
+Processing --> Sending : Forward Passtoken
+Sending --> Waiting : Wait for Passtoken
 
+[*] --> Sending : Initiate Passtoken (Initiator)
 
-Idle --> ReceivePasstoken : Receive Passtoken (Non-Init)
-ReceivePasstoken --> ProcessPasstoken : Process Passtoken
-ProcessPasstoken --> SendPasstoken : Forward Passtoken (To Next)
-SendPasstoken --> Idle : Wait for the token
 @enduml
 
 
