@@ -72,20 +72,30 @@ FLP 정리는 **비동기 시스템**(메시지가 언제 도착할지 알 수 �
 
 
 Fault Tolerant
+# Election Algorithm
+Correctness - 선거가 끝나면 1명이 뽑히고 모두가 그 사람이 누군지 알아야한다
+	1. Safety - 비정상인 애들 빼고 **ID가 가장 높은 애**가 뽑힌다
+	2. Liveness - 알고리즘이 끝나면 **리더 1명**을 뽑아야 한다
 
-# Ring
-### Model
-1. Unique UD
-2. 1 P = 1 machine
-3. 1P tknows others
-4. NO STATUs
-5. Different Network Topologies
-6. Highest ID new cordinator
-7. 1 Way
-	1. Clockwise
-8. 2 Elections? = 1 leasder with highest ID
-9. Go back to the initiator
+# 문제점
+1. 각각 노드는 누가 리더인지 모르고
+2. 누구나 리더가 될수있고
+3. 문제
+	1. 메세지가 사라질수도 있고
+	2. 프로세스가 죽을수도 있고
+	3. 프로세스가 살아날수도 있고 (ELECTION 다시 한다)
+끝나면 한명이 cordinator로 뽑혀야 한다
 
+선거에는 알고리즘이 2개 있다.RING , BULLY.
+# Ring vs BULLY
+## Ring
+Ring 에는 Unique Number가 있다
+1 프로세스에는 1 기계
+그리고 누군지 다 알고 있다 근데 status는 모른다
+Highest ID = Leader
+### Algorithm
+1. Leader died -> sends an ELECTION to next process (ID도 포함해서)
+2. 
 ### How works?
 1. 이번 리더가 죽으면
 	1. 선거 메세지를 다음 애 한테 보낸다 (ID)
