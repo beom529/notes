@@ -148,3 +148,19 @@ Highest ID = Leader
 언젠가는 자기가 메세지를 보낸다
 ### 3.Agreement
 언젠가는 자기가 메세지를 받는다
+
+
+Total Order , Partial Order , Causual Order
+```mermaid
+graph TD;
+    A[Total Ordering] --> B[Partial Ordering]
+    B --> C[Causal Ordering]
+    A --> C
+    A : 모든 프로세스가 이벤트 순서를 동의함
+    A : 일관되고 전역적인 뷰를 제공함
+    B : 일부 이벤트는 순서가 없음
+    B : 전역 순서가 필요하지 않음
+    B : 관련된 이벤트만 순서가 정해짐
+    C : 사건은 인과 관계에 따라 순서가 정해짐
+    C : A가 B를 유발하면, A는 B보다 먼저 발생해야 함
+```
