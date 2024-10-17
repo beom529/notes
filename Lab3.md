@@ -35,3 +35,8 @@ var viewStates = make(map[int]*ViewState) 를 수정할까 아니면 type Peer s
     Mutex                sync.Mutex //Mutex  
     HeartbeatReceived    time.Time  //Received Time  
 } 에 추가할까?
+
+크래쉬 담당부분
+    -c delay
+      This delay is a sleep that should start immediately after sending an JOIN
+      message. When the sleep ends, the peer should crash (exit). 을 메인함수에서 다르게 처리하게 바꿔야 될것같애
