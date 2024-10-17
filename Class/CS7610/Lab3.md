@@ -17,7 +17,6 @@ Message (Payload) Structtype Message struct {
 1. Client 가 JOIN 보낸다
 ```
 MessageType
-Operation
 SrcID
 DestID
 ```
@@ -32,4 +31,17 @@ DestID
     LeaderID  
 	NewPeerID 
 ```
-4. 
+4. 각 Peer는 OK를 대답한다
+```
+    MessageType
+    SrcID
+    DestID
+    RequestID
+    ViewID
+```
+5. 전부다 돌아오면 끝~
+```
+    MessageType
+    SrcID
+    DestID
+```
