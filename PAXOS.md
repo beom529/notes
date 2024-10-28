@@ -65,4 +65,4 @@ Proposers
 }Otherwise, value is chosen
 
 1.Quorum 공식
-Quorum >= (n/2)+1
+	Quorum >= (n/2)+1
