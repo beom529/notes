@@ -63,3 +63,6 @@ Proposers
 }Any rejections (result > n)?  goto (1)
 
 }Otherwise, value is chosen
+
+1.Quorum 공식
+Quorum >= (n/2)+1
