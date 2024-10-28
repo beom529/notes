@@ -66,3 +66,4 @@ Proposers
 
 1.Quorum 공식
 	Quorum >= (n/2)+1
+1. Prepare에 비어 있다
