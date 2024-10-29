@@ -68,3 +68,4 @@ Proposers
 	Quorum >= (n/2)+1
 1. Prepare에 비어 있다
 Proposal Value String 써도 되는지
+나한테도 보내야되?
