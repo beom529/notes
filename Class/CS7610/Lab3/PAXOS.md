@@ -64,11 +64,3 @@ Proposers
 
 }Otherwise, value is chosen
 
-1.Quorum 공식
-	Quorum >= (n/2)+1
-1. Prepare에 비어 있다
-Proposal Value String 써도 되는지
-나한테도 보내야되?
-Proposer가 어디로 보내?
-Learner처리는 빼도 되?
-특정애들한테 보내면 Quorum계산은 전체 기준이야 아니면 Accepter보낸애들 기준이야?
