@@ -12,7 +12,7 @@
 			```"proposal_num":1.1```
 - [ ] Proposer 
 	- [ ] Prepare Message **Recipient**
-		- [ ] To ALL: Includes non-acceptors? or Acceptors with same integer in the host file?
+		- [ ] **To ALL**: Includes non-acceptors? or Acceptors with the same integer in the host file?
 		- [ ] To Myself? - Am I counting in the quorum?
 	 - [ ] Prepare Message **Print**
 			1. Proposer (Message Value is Empty)
@@ -21,8 +21,17 @@
 				1. ```peer1  | {"peer_id":2, "action": "received", "message_type":"prepare_ack","message_value":"", "proposal_num":0.0}```
 	- [ ] Prepare message Quorum handling
 		- [ ] Quorum is calculated by $$Total Hosts Sent PrepareACKmessage/Total hosts in the hostsfile$$
+			```
+			peer1:proposer1 
+			peer2:acceptor1
+			peer3:acceptor1  
+			peer4:acceptor1  
+			peer5:learner1
+			```
+	- [ ] PREPARE_ACK message AFTER quorum is reached
+		- [ ] Ignore? or What? - Nothing mentioned in slides/PowerPoint
 - [ ] Payload
 	- [ ] Gob to handle byte data, NOT string
 		- [ ] Can Proposal Value can be a string?
 - [ ] Learner
-	- [ ] No instructions about "Learner" - Should I have to include a learner handling? 
+	- [ ] No instructions about "Learner" - Should I have to include a learner handling?  And what?
