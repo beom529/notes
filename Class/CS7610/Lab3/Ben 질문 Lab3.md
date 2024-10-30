@@ -28,7 +28,7 @@
 			```"proposal_num":1.1```
 - [ ] Proposer 
 	- [ ] Prepare Message **Recipient**
-		- [ ] **To ALL**: Includes non-acceptors? or Acceptors with the same integer in the host file?
+		- [ ] **To ALL**: Includes non-acceptors? or Acceptors with the same integer in the host file? : Send a message. 
 		- [ ] To Myself? - Am I counting in the quorum?
 	 - [ ] Prepare Message **Print**
 			1. Proposer (Message Value is Empty)
