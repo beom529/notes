@@ -5,7 +5,7 @@
 	- [ ] The **given docker file does not have volume or file mapping**. 
 	- [ ] Proposer: "Proposers must persist maxRound on disk: must not reuse proposal numbers after crash/restart." - Should I have done this?
 	- [ ] Acceptor: "Acceptors must record minProposal, acceptedProposal, and acceptedValue on stable storage (disk)." - Should I have to do this?
-- [ ] NO
+- [ ] 
 - [ ] Proposer
 	- [ ] time.Sleep(1 * time.Second) // Delay 넣어도 되?
 - [ ] Proposal Value Format
