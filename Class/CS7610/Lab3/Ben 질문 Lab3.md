@@ -19,8 +19,8 @@
 				```{"peer_id":1, "action": "sent", "message_type":"prepare","message_value":"", "proposal_num":1.1}```
 			2. Acceptor (If there's no chosen proposal yet) = (Message Value/Proposal Number)
 				1. ```peer1  | {"peer_id":2, "action": "received", "message_type":"prepare_ack","message_value":"", "proposal_num":0.0}```
-	- [ ] Prepare message Quorum handling
-		- [ ] Quorum is calculated by $$()/()$$
+	- [ ] Prepare message Quorum handling.
+		- [ ] Quorum is calculated by $$Total Hosts Sent PrepareACKmessage/Total hosts in the hostsfile$$
 - [ ] Payload
 	- [ ] Gob to handle byte data NOT string
 		- [ ] Can Proposal Value can be a string?
