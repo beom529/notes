@@ -37,6 +37,8 @@
 				1. ```peer1  | {"peer_id":2, "action": "received", "message_type":"prepare_ack","message_value":"", "proposal_num":0.0}```
 	- [ ] Prepare message Quorum handling
 		- [ ] Quorum is calculated by $$Total Hosts Sent PrepareACKmessage/Total Hosts In The Hostsfile$$ 2/5 OR  $$Total Hosts Sent PrepareACKmessage/TotalAcceptorHosts $$
+	- [ ]텍스트파일전체
+	- 
 
 	- [ ] PREPARE_ACK message AFTER quorum is reached
 		- [ ] Ignore?
