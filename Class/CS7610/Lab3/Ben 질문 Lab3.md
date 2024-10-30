@@ -1,10 +1,7 @@
 - [ ] Quorum 공식
 	Quorum >= (n/2)+1
 		Floor / Ceiling?
-- [ ] Persistence
-	- [ ] The **given docker file does not have volume or file mapping**. 
-	- [ ] Proposer: "Proposers must persist maxRound on disk: must not reuse proposal numbers after crash/restart." - Should I have done this?
-	- [ ] Acceptor: "Acceptors must record minProposal, acceptedProposal, and acceptedValue on stable storage (disk)." - Should I have to do this?
+
 - [ ] 
 - [ ] Proposer
 	- [ ] time.Sleep(1 * time.Second) // Delay 넣어도 되?
