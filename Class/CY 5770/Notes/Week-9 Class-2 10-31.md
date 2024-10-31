@@ -11,4 +11,6 @@ fread
 
 부모 프로세스- 아들 프로세스
 Format string
+
+Format 11_32
 	
