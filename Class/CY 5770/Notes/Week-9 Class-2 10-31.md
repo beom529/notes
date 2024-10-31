@@ -67,3 +67,8 @@ Lazy Binding
 	1. 프로그램 시작하면 아무것도 없고
 	2. 처음으로 시작하면 그 주소를 찾아서 테이블에 넣는다
 	3. GOT Linker+Loader(Runtime):
+
+1. GOT 어떤 Entry가 Exit()인지 찾을것 R=GOT
+	1. objdump -R
+2. nm 명ㄹ여어
+3. 
