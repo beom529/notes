@@ -13,4 +13,7 @@ fread
 Format string
 
 Format 11_32
+
+**카나리 찾는법**
+1. Printf 에서 %x.으로 메모리 주소 읽기
 	
