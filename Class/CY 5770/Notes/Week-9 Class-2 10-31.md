@@ -20,5 +20,6 @@ Format 11_32
 	
 
 %eax,-0x2c(%ebp) 
+ebp-20
 
 0x8049276
