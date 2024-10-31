@@ -50,3 +50,20 @@ tmpbuffer
 
 formats9
 3 global variables
+
+
+Arbitrary Overwrite
+1. Code Pointers (RET Address)
+2. Function Pointers
+	1. C++ vtable -> Code Pointers
+	2. GCC .fini section
+	3. GCC .got section Global Offset Table
+
+Lazy Binding
+		1. Memory에 적재되면
+		2. C library는 그 library를 어드레스에 넣고 테이블에 넣는다 2번째 함수는 그 테이블에서 뽑아서 쓴다
+		3. Procedure Linkage Table (코드가 들어 있음) 쓸수 없다
+		4. GOT = Table이다 (각 라이브러리의 주소가 있다) 쓸수 있다
+	1. 프로그램 시작하면 아무것도 없고
+	2. 처음으로 시작하면 그 주소를 찾아서 테이블에 넣는다
+	3. GOT Linker+Loader(Runtime):
