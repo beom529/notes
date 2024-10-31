@@ -38,3 +38,6 @@
 		- [ ] Can Proposal Value can be a string?
 - [ ] Learner
 	- [ ] No instructions about "Learner" - Should I have to include a learner handling?  And what?
+
+1. Would the Proposer itself be counted towards the PREPARE quorum?
+2. When would Proposer COMMIT accepted value? Is it when sending "ACCEPT" message or after finishing retrieving "ACCEPT_ACK" from the quorum? More specifically, when does the Proposer print the "CHOSE" message?
