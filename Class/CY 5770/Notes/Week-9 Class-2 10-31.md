@@ -18,4 +18,5 @@ Format 11_32
 1. Printf 에서 %x.으로 메모리 주소 읽기
 	objdump -d - 디스어셈블
 	
-2. 
+
+%eax,-0x2c(%ebp) 
