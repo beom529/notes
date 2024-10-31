@@ -42,3 +42,7 @@ tmpbuffer
 				8 Bytes+ 9bytes
 				=62bytes
 		4,4,4,10,58x
+
+1. 하나의 정수는 4바이트
+2. 하나의 HEX는 1 바이트
+
