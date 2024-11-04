@@ -1,21 +1,4 @@
 - [ ] Proposal Value Format
-	- [ ] To generate a new proposal number: Increment maxRound Concatenate with Server Id
-		- [ ] Round Number: Hostfile's Number
-			- [ ] Case 1
-				peer1:proposer1
-				peer2:acceptor1
-				peer3:acceptor1
-				peer4:acceptor1
-				peer5:learner1
-			- [ ] Case 2
-				peer1:proposer1  
-				peer2:acceptor1,acceptor2  
-				peer3:acceptor1,acceptor2  
-				peer4:acceptor1,acceptor2  
-				peer5:proposer2
-		- [ ] Server ID: Peer ID
-		- [ ] String (RoundNumber.ServerID) = Is this correct?
-			```"proposal_num":1.1```
 - [ ] Proposer 
 	- [ ] Prepare Message **Recipient**
 		- [ ] **To ALL**: Includes non-acceptors? or Acceptors with the same integer in the host file? : Send a message. 
@@ -41,3 +24,15 @@
 
 1. Would the Proposer itself be counted towards the PREPARE quorum?
 2. When would Proposer COMMIT accepted value? Is it when sending "ACCEPT" message or after finishing retrieving "ACCEPT_ACK" from the quorum? More specifically, when does the Proposer print the "CHOSE" message?
+
+[ ] Payload
+	- [ ] Gob to handle byte data, NOT string.
+		- [ ] Can Proposal Value can be a string?
+- [ ] Format
+	- [ ] {"peer_id":2, "action": "received", "message_type":"accept_ack","message_value":"", "proposal_num":1.5}
+	- [ ] {"peer_id":3, "action": "received", "message_type":"prepare_ack","message_value":"", "proposal_num":0.0}
+
+
+
+```
+```
