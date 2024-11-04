@@ -49,3 +49,18 @@ Learner
 ![[Screenshot 2024-11-04 at 4.37.25 PM.png]]
 
 2024-11-04 16:35:33 {"peer_id":1, "action": "received", "message_type":"accept","message_value":"X", "proposal_num":1.1}
+
+Rejection 처리?
+
+끝나면 종료?
+Hostfile host2개 이상은?
+peer1:proposer1  
+peer2:acceptor1,acceptor2  
+peer3:acceptor1,acceptor2  
+peer4:acceptor1,acceptor2  
+peer5:proposer2
+
+멀티롤?
+proposer1  
+acceptor1,acceptor2  
+learner1
