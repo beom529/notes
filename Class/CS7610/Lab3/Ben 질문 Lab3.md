@@ -36,3 +36,16 @@
 
 ```
 ```
+
+
+Learner
+```
+2024-11-04 16:35:29 {"peer_id":3, "action": "received", "message_type":"accept_ack","message_value":"", "proposal_num":1.1}
+2024-11-04 16:35:31 {"peer_id":1, "action": "sent", "message_type":"accept","message_value":"X", "proposal_num":1.1}
+2024-11-04 16:35:31 {"peer_id":4, "action": "received", "message_type":"accept_ack","message_value":"", "proposal_num":1.1}
+2024-11-04 16:35:33 {"peer_id":1, "action": "sent", "message_type":"accept","message_value":"X", "proposal_num":1.1}
+2024-11-04 16:35:35 {"peer_id":1 "action": "chose","message_type":"chose","message_value":"X","proposal_num":1.1}
+```
+![[Screenshot 2024-11-04 at 4.37.25 PM.png]]
+
+2024-11-04 16:35:33 {"peer_id":1, "action": "received", "message_type":"accept","message_value":"X", "proposal_num":1.1}
