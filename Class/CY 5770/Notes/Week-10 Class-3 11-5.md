@@ -32,3 +32,5 @@ NOjop - NO JUMP ORIENTED
 Binary to get gadgets in the binary
 offset - BaseAddress
 
+![[L13 Return-oriented Programming.pdf#page=27&selection=5,0,11,60]]
+40 bytes
