@@ -20,3 +20,6 @@ return to some place => NOT oversrite, re use
 Turing complete 하게
 
 Innocent flesh = Random bytes
+Code sequence
+	Gadgets
+		Some bytes > Not limited by compiler
