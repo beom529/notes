@@ -18,3 +18,5 @@ address space 에 있어야됨
 return to some place => NOT oversrite, re use
 
 Turing complete 하게
+
+Innocent flesh = Random bytes
