@@ -42,4 +42,4 @@ offset - BaseAddress
 	1. 0x0000000000023b6a : pop rdi ; ret
 4. ldd ./bufferoverflow_overflowret3_64
 5. touch /tmp/e.sh
-6. ![[L13 Return-oriented Programming.pdf#page=27&selection=5,0,12,7]]![[L13 Return-oriented Programming.pdf#page=27&selection=2,0,12,7]]
+6. ![[L13 Return-oriented Programming.pdf#page=27&selection=5,0,12,7]]![[L13 Return-oriented Programming.pdf#page=27&selection=2,0,12,7]]![[L13 Return-oriented Programming.pdf#page=27&selection=9,38,9,46]]
