@@ -34,3 +34,6 @@ offset - BaseAddress
 
 ![[L13 Return-oriented Programming.pdf#page=27&selection=5,0,11,60]]
 40 bytes
+
+
+1. python3 ROPgadget/ROPgadget.py --binary /lib/x86_64-linux-gnu/libc.so.6
