@@ -23,3 +23,12 @@ Innocent flesh = Random bytes
 Code sequence
 	Gadgets
 		Some bytes > Not limited by compiler
+
+Generates random byte -> Interpreted as a valid instructions
+
+ROP gadget
+![[L13 Return-oriented Programming.pdf#page=13&selection=3,0,4,50]]
+NOjop - NO JUMP ORIENTED
+Binary to get gadgets in the binary
+offset - BaseAddress
+
