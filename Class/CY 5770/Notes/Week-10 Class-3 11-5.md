@@ -37,3 +37,9 @@ offset - BaseAddress
 
 
 1. python3 ROPgadget/ROPgadget.py --binary /lib/x86_64-linux-gnu/libc.so.6
+2. python3 ROPgadget/ROPgadget.py --binary /lib/x86_64-linux-gnu/libc.so.6 --nojop
+3. python3 ROPgadget/ROPgadget.py --binary /lib/x86_64-linux-gnu/libc.so.6 --nojop | grep "pop rdi"
+	1. 0x0000000000023b6a : pop rdi ; ret
+4. ldd ./bufferoverflow_overflowret3_64
+5. touch /tmp/e.sh
+6. ![[L13 Return-oriented Programming.pdf#page=27&selection=5,0,12,7]]![[L13 Return-oriented Programming.pdf#page=27&selection=2,0,12,7]]
