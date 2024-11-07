@@ -28,8 +28,12 @@ OPEN FILE/READ FILE/CHANGE THE OWNER/CHANGE OF THE PERMISSION
 OPEN THE FLAG and print value> [!PDF|] [[L13 Return-oriented Programming.pdf#page=38&selection=0,10,0,11|L13 Return-oriented Programming, p.38]]
 > > ,
 > 
-> STDOUR> [!PDF|] [[L13 Return-oriented Programming.pdf#page=38&selection=0,36,0,40|L13 Return-oriented Programming, p.38]]
+> STDOUR> [!PDF|] [[L13 Return-oriented Programming.pdf#page=38&selection=0,36,0,40|L13 Return-oriented Programming, p.38]]> [!PDF|] [[L13 Return-oriented Programming.pdf#page=42&selection=40,2,40,6|L13 Return-oriented Programming, p.42]]
+> flag
+.data section
+
 > > 1000
 > 
 > OFfset
-> 
+
+
