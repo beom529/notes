@@ -25,4 +25,11 @@ syscall instuction
 OPEN FILE/READ FILE/CHANGE THE OWNER/CHANGE OF THE PERMISSION
 > Function call to C library (Systemcall wrapper) -> 
 
-OPEN THE FLAG and print value
+OPEN THE FLAG and print value> [!PDF|] [[L13 Return-oriented Programming.pdf#page=38&selection=0,10,0,11|L13 Return-oriented Programming, p.38]]
+> > ,
+> 
+> STDOUR> [!PDF|] [[L13 Return-oriented Programming.pdf#page=38&selection=0,36,0,40|L13 Return-oriented Programming, p.38]]
+> > 1000
+> 
+> OFfset
+> 
