@@ -1,9 +1,10 @@
 
-| IP           | Where         | User | Password                     |
-| ------------ | ------------- | ---- | ---------------------------- |
-| 10.10.10.254 | Homeassistant |      |                              |
-| 10.10.10.253 | Frigate       | root | wFMQE9PBqW4G68SAzKenbgd3p5Ru |
-|              |               |      |                              |
+| IP           | Where         | User | Password                         |
+| ------------ | ------------- | ---- | -------------------------------- |
+| 10.10.10.254 | Homeassistant |      |                                  |
+| 10.10.10.253 | Frigate       | root | wFMQE9PBqW4G68SAzKenbgd3p5Ru     |
+| 10.10.10.252 | Netbox        | root | r6Q#71Z%HRH8&WyNdHsf!KEx%7%w9ck8 |
+|              |               |      |                                  |
 
 | SSID                 | Password                     |
 | -------------------- | ---------------------------- |
