@@ -35,3 +35,7 @@ Valide gadget찾아도 알수 있는방법이 없다
 Stop gadget = Triiger crash를 바로 하지 않는다
 	pop rdi : segmentation fault
 	sleep function and return -> remotley
+1. Find a write operation (File descriptor, buffer, size, other parameters)
+	1. POP rdi(NOT BE 0) -> rsi; and size (rsx)
+	2. BROP Blind Rop Gadget
+2. 
