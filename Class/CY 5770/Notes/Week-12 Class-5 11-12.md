@@ -17,3 +17,16 @@ Only way
 ![[L13 Return-oriented Programming.pdf#page=48&selection=2,0,4,28]]
 Last = Call (Indirect/Direct), Jump
 
+Canary 찾는법
+	Child= 같은 canary value (Fork)
+		Parent - Child
+			둘다 ASLR/카나리가 같음
+
+Remotley
+	Socket open = Not crash
+	Socket close = Child process is crash (RESET)
+Stack Reading Approach
+	1. 매 바이트마다 덮어쓰기
+	2. 콜백 함수 이건 
+	3. 라이브러리 함수 인지 모른다
+	4. 
