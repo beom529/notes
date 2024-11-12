@@ -38,4 +38,30 @@ Stop gadget = Triiger crash를 바로 하지 않는다
 1. Find a write operation (File descriptor, buffer, size, other parameters)
 	1. POP rdi(NOT BE 0) -> rsi; and size (rsx)
 	2. BROP Blind Rop Gadget
-2. 
+
+
+1. Control Flow Intergrity
+	1. Shadow Stack
+		1. Backward만 커버한다
+		2. 2 Stackes (Original, Difdferent )
+			1. 리턴주소만 모아서 stack을 만든다
+			2. 리턴할때 비교해서 
+				1. Backward 
+		3. Fundting0> Function (Foward)
+	3. Foward edg3e
+		1. Call
+	4. Backward Edge
+		1. Return
+
+실행되기전에 Control Graph 를 만들고 실횅하ㅓㄴ다
+Code section이 not writable하면 된다
+
+Direct Call
+	Call 0x00000000 (Never been change)
+
+Indirect Call
+	Call RAX (subverted - attacker can change the value)
+		Funtion pointer ()
+
+Shadow
+	RET to another stack
