@@ -21,3 +21,8 @@
 # POW (작업증명)
 
 # POS (지분증명)
+# MEV
+- Maximal Extractable Value (최대 추출 가능 가치)
+### POW
+- 채굴자가 불록 생성
+### POS
