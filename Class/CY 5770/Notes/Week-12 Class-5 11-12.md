@@ -65,4 +65,4 @@ Indirect Call
 
 Shadow
 	RET to another stack![[L13 Return-oriented Programming.pdf#page=58&selection=0,25,0,38]]![[L13 Return-oriented Programming.pdf#page=58&selection=0,25,0,27]]
-INT 80
+INT 80![[L13 Return-oriented Programming.pdf#page=54&selection=6,34,26,63]]
