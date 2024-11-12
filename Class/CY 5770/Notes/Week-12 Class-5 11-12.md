@@ -64,4 +64,4 @@ Indirect Call
 		Funtion pointer ()
 
 Shadow
-	RET to another stack
+	RET to another stack![[L13 Return-oriented Programming.pdf#page=58&selection=0,25,0,38]]![[L13 Return-oriented Programming.pdf#page=58&selection=0,25,0,27]]
