@@ -17,4 +17,6 @@ BERT Score
 	
 
 Dynamic update
-	
+
+기계적문제를 사회적 문제로 확대 해석을 할수 있어야한다
+
