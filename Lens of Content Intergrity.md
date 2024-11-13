@@ -8,4 +8,13 @@ Web Shell
 	- Obfuscation 사용해서 
 SNS 계정 이름을 CHG -> 링크가 바뀐다
 	- 이름을 탈취한 계정은 좀더 악의적으로 행동한다
-	- 
+
+BERT Score
+	내용이 바뀌면 숫자가 낮아진다
+	0-1
+	높을수록 좋다
+	낮을수록 안좋다
+	
+
+Dynamic update
+	
