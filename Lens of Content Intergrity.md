@@ -26,5 +26,5 @@ Tripwire
 	자바스크립트 서명을 같이 확인한다
 	DNS?
 Future Browser
-	뭐지?
+	뭐
 	
