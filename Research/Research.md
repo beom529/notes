@@ -18,14 +18,14 @@
 
 ## **RESEARCH**
 
-1. AFL 사용할줄알기
-	- Coverage based fuzzing에 대해서 공부하기
-	- Coverage GCC? 컴파일러마다 다른가?
-	- 소스코드 / 바이너리 없이 실행
-1. MIG 페이퍼 읽기
+- [ ] AFL 사용할줄알기
+	- [ ] Coverage based fuzzing에 대해서 공부하기
+	- [ ] Coverage GCC? 컴파일러마다 다른가?
+	- [ ] 소스코드 / 바이너리 없이 실행
+- [ ] MIG 페이퍼 읽기
 	- [https://dl.acm.org/doi/pdf/10.1145/3576915.3616672](https://dl.acm.org/doi/pdf/10.1145/3576915.3616672)
-2. 차오밍 Paper 읽기
-3. Blackbox Paper 읽기 (Threat Model, Scenario 집중할것)
+- [ ] 차오밍 Paper 읽기
+- [ ] Blackbox Paper 읽기 (Threat Model, Scenario 집중할것)
 	- LABRADOR: Response Guided Directed Fuzzing for Black-box IoT Devices
 		- [https://www.computer.org/csdl/proceedings-article/sp/2024/313000a127/1Ub23HQTJ1C](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a127/1Ub23HQTJ1C)
 	- Snipuzz: Black-box fuzzing of iot firmware via message snippet inference
@@ -38,9 +38,9 @@
 		- [https://link.springer.com/content/pdf/10.1007/978-3-030-29959-0.pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-29959-0.pdf)
 	- Powertrace-based Fuzzing of CAN Connected Hardware
 		- [https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=985029](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=985029)
-4. EM-FUZZING 사용하기
-	1. Probe 넣어서 사용
-5. GPU Schedule은 SAGAR가 한다
+- [ ] EM-FUZZING 사용하기
+	- Probe 넣어서 사용
+- [ ] GPU Schedule은 SAGAR가 한다
 
 ## **CLASS**
 1. Solana 이해하기
