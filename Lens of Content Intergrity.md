@@ -20,3 +20,11 @@ Dynamic update
 
 기계적문제를 사회적 문제로 확대 해석을 할수 있어야한다
 
+HTTPi
+
+Tripwire
+	자바스크립트 서명을 같이 확인한다
+	DNS?
+Future Browser
+	뭐지?
+	
