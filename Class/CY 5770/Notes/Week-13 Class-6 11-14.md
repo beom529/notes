@@ -44,3 +44,5 @@ Heap, BSS, DATA, TEXT
 
 sbreak (200) = 늘릴수 있다
 에러 뜬다
+
+strace 아무 프로그램
