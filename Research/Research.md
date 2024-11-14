@@ -45,6 +45,7 @@
 - [ ] LLM Layer Security (주 실행은 Python -> CUDA 코드로 변환됨)
 	- [ ] LLAMA
 	- [ ] GROK
+- [ ] https://oaklandsok.github.io/papers/schloegel2024.pdf
 
 ## **CLASS**
 1. Solana 이해하기
