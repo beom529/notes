@@ -46,3 +46,27 @@ sbreak (200) = 늘릴수 있다
 에러 뜬다
 
 strace 아무 프로그램
+
+Low to High (Heap)
+![[L14 Heap Exploitation.pdf#page=14&selection=0,13,0,26]]![[L14 Heap Exploitation.pdf#page=14&selection=0,12,0,15]]
+tcache
+2 states
+	1. In-Use (Malloc address is being)
+	2. It was malloced before but it is freed
+		1. 재사용 가능하다
+다른 말록 바이트
+10바이트
+20바이트
+
+지금 청크 사이즈
+
+만약에 청크가 사용중이면
+Freed가 없다
+여기에는 니 데이터가 있다
+
+Malloc 청크의 메모리주소를 넣는다
+
+더블링크\
+
+Former field
+Backward Fiedld
