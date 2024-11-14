@@ -20,4 +20,7 @@ DL 말록
 	ptmalloc 이 리눅스에서 쓴다 DL malloc (여러 스레드를 쓰개 한다)
 	아직도 바뀌고 있다
 	인터페이스는 같다 (명령어)
-	kmalloc
+	kmalloc> [!PDF|] [[L14 Heap Exploitation.pdf#page=8&selection=4,1,4,7|L14 Heap Exploitation, p.8]]
+> calloc
+> [!PDF|] [[L14 Heap Exploitation.pdf#page=8&selection=18,1,18,8|L14 Heap Exploitation, p.8]]
+> realloc
