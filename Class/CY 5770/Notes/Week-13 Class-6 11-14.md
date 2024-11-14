@@ -30,3 +30,7 @@ FAIL: 앞뒤에 데이터가 있으면
 
 ![[L14 Heap Exploitation.pdf#page=10&selection=22,1,24,21]]
 
+HEAP은 특정 메모리 주소에 직접 접속
+	엄청 길다
+ldpreload -> 다른 라이브러리로 바꾸기
+
