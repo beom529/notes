@@ -24,7 +24,8 @@
 	- [ ] 소스코드 / 바이너리 없이 실행
 - [ ] MIG 페이퍼 읽기
 	- [https://dl.acm.org/doi/pdf/10.1145/3576915.3616672](https://dl.acm.org/doi/pdf/10.1145/3576915.3616672)
-- [ ] 차오밍 Paper 읽기
+- [ ] 차오밍 Paper 읽기 (SHiFT: Semi-hosted Fuzz Testing for Embedded Applications)
+	- [ ] https://www.usenix.org/conference/usenixsecurity24/presentation/mera
 - [ ] Blackbox Paper 읽기 (Threat Model, Scenario 집중할것)
 	- LABRADOR: Response Guided Directed Fuzzing for Black-box IoT Devices
 		- [https://www.computer.org/csdl/proceedings-article/sp/2024/313000a127/1Ub23HQTJ1C](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a127/1Ub23HQTJ1C)
