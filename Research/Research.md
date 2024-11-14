@@ -41,6 +41,9 @@
 - [ ] EM-FUZZING 사용하기
 	- Probe 넣어서 사용
 - [ ] GPU Schedule은 SAGAR가 한다
+- [ ] LLM Layer Security (주 실행은 Python -> CUDA 코드로 변환됨)
+	- [ ] LLAMA
+	- [ ] GROK
 
 ## **CLASS**
 1. Solana 이해하기
