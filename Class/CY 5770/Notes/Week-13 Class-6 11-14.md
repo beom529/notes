@@ -24,3 +24,7 @@ DL 말록
 > calloc
 > [!PDF|] [[L14 Heap Exploitation.pdf#page=8&selection=18,1,18,8|L14 Heap Exploitation, p.8]]
 > realloc
+> [!PDF|] [[L14 Heap Exploitation.pdf#page=8&selection=16,0,20,5|L14 Heap Exploitation, p.8]]
+> void *realloc(void *ptr, size_t size)
+FAIL: 앞뒤에 데이터가 있으면
+
