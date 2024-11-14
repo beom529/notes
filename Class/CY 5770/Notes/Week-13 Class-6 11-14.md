@@ -70,3 +70,19 @@ Malloc 청크의 메모리주소를 넣는다
 
 Former field
 Backward Fiedld
+
+
+16바이트로 alighment를 사용한다
+
+P bit
+	Is Previous chunk in use?
+M bit
+	MMAP()으로 받았냐?
+A bit
+	Thread Arena에 사용했나?
+
+![[L14 Heap Exploitation.pdf#page=17&selection=6,0,7,0]]
+ptmalloc코드에 더불어서 Threat Local Chachingj j 
+
+Tcache 디자인
+믿 청크 부분이 없다
