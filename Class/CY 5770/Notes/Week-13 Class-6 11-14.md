@@ -86,3 +86,7 @@ ptmalloc코드에 더불어서 Threat Local Chachingj j
 
 Tcache 디자인
 믿 청크 부분이 없다
+
+
+Cache는 헤드에 간다
+테일이 아니고
