@@ -34,3 +34,13 @@ HEAP은 특정 메모리 주소에 직접 접속
 	엄청 길다
 ldpreload -> 다른 라이브러리로 바꾸기
 
+![[L14 Heap Exploitation.pdf#page=12&selection=4,8,4,12]]
+큰 메모리들 할때
+
+
+sbrk(NULL) = Program Break (컨셉)
+Data 세그먼트 끝
+Heap, BSS, DATA, TEXT
+
+sbreak (200) = 늘릴수 있다
+에러 뜬다
