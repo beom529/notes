@@ -28,3 +28,5 @@ DL 말록
 > void *realloc(void *ptr, size_t size)
 FAIL: 앞뒤에 데이터가 있으면
 
+![[L14 Heap Exploitation.pdf#page=10&selection=22,1,24,21]]
+
