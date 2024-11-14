@@ -91,3 +91,6 @@ Tcache 디자인
 Cache는 헤드에 간다
 테일이 아니고
 빠르다
+
+
+Aligmentdp 맞춰서 늘어난다
