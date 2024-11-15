@@ -46,6 +46,7 @@
 	- [ ] LLAMA
 	- [ ] GROK
 - [ ] https://oaklandsok.github.io/papers/schloegel2024.pdf
+- [ ] Thanksgiving에 수업 있다
 
 ## **CLASS**
 1. Solana 이해하기
