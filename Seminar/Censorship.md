@@ -47,4 +47,8 @@ L4 위 모든건 Encrypt 된다
 4. 20
 5. HTTP
 
+Probabilistic 기반 approach
+1. 25% 정도만 막는다
+
+AS 기반 IP 필터
 
