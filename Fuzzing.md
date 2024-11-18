@@ -7,3 +7,6 @@ Input Data type에 따라 2가지 방식으로 나뉨
 		2. Append : 아무런 비트나 추가한다
 2. Generation (Intelligent)
 	1. 어느정도 포맷/프로토콜을 기준으로 input을 생성한다
+
+
+소스코드를 가지고 있는가?
