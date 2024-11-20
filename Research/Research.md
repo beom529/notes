@@ -62,4 +62,12 @@
 2. Github Safety 
 
 - [ ] Fuzzing Book 읽기
+	- [ ] 매주 보고 하기
 	- [ ] Memory Safe
+	- [ ] 쉽게 Publish 할수 있다
+	- [ ] Userstudy build on your 
+		- [ ] Ectf 몇년했다
+	- [ ] Read script
+		- [ ] Hardcore project, 빠른 페이퍼를 넣어야한다
+	- [ ] 퍼징 페이퍼
+		- [ ] Fuzzing Paper : Dependent 
