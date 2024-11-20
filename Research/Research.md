@@ -71,3 +71,5 @@
 		- [ ] Hardcore project, 빠른 페이퍼를 넣어야한다
 	- [ ] 퍼징 페이퍼
 		- [ ] Fuzzing Paper : Dependent 
+	- [ ] G
+- [ ] GPU 페이퍼 환경 복구 하기
