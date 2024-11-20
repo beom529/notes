@@ -39,9 +39,9 @@
 		- [https://link.springer.com/content/pdf/10.1007/978-3-030-29959-0.pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-29959-0.pdf)
 	- Powertrace-based Fuzzing of CAN Connected Hardware
 		- [https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=985029](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=985029)
-- [ ] EM-FUZZING 사용하기
+- [x] EM-FUZZING 사용하기
 	- Probe 넣어서 사용
-- [ ] GPU Schedule은 SAGAR가 한다
+- [ ] GPU Project Schedule은 SAGAR가 한다
 - [ ] LLM Layer Security (주 실행은 Python -> CUDA 코드로 변환됨)
 	- [ ] LLAMA
 	- [ ] GROK
