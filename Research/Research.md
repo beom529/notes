@@ -57,4 +57,9 @@
 	2. DEX
 	3. 
 3. Solana 페이퍼가 있나
+1. 퍼징북  읽기
+	1. memory safe bug
+2. Github Safety 
 
+- [ ] Fuzzing Book 읽기
+	- [ ] Memory Safe
