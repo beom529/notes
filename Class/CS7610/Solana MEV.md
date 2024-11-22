@@ -38,3 +38,15 @@ Uniswab
 
 
 Var synchrony model 
+
+
+# PBFT가 문제가 안되는 이유?
+Byzantine이 문제가 안되는 이유
+
+Assumption
+모두가 연결되어 있기 때문에
+P2P에는 멀티홉연결이 된다
+
+직접 소통하는 채널이 있으면 Veryfiyt 를 직접 할수 있다
+
+Crip 
