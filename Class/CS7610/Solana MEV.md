@@ -122,3 +122,10 @@ Validator가 돈을 번다
 
 Not the Validator's Address 
 1. Identify the validator
+
+Slashing -> What is wrong -> Half of Eth
+Certain Leaders are dping this
+
+1 block -> 1 Leader
+
+4 blocks per validator
