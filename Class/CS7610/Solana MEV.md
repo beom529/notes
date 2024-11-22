@@ -35,3 +35,6 @@ Uniswab
 1. MEV 탐지
 	1. 샌드위치 공격을 막기 위해서는 
 2. 
+
+
+Var synchrony model 
