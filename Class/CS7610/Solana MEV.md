@@ -110,3 +110,6 @@ APE Transaction
 Mempool
 
 Minimizing risk / transaction : Availability 
+
+
+50ms 40ms
