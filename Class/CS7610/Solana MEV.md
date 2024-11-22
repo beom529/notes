@@ -113,3 +113,8 @@ Minimizing risk / transaction : Availability
 
 
 50ms 40ms
+
+솔라나
+	Bots -> Fail 되명 VALIDATOR는 돈을 받지 않는다
+
+Validator가 돈을 번다
