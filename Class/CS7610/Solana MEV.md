@@ -104,4 +104,8 @@ Smaller space
 
 Intrin
 
-ㅜㅑ턘
+APE Transaction
+	Copy the transaction -> 
+
+Mempool
+
