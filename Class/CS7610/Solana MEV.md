@@ -50,3 +50,8 @@ P2P에는 멀티홉연결이 된다
 직접 소통하는 채널이 있으면 Veryfiyt 를 직접 할수 있다
 
 Crip 
+
+Disjoint Path
+OVerlap이 안되는 Path가 있다
+K , K-a ()
+As long as less attackers in paths, it will work.
