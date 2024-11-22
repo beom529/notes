@@ -133,3 +133,9 @@ Certain Leaders are dping this
 7 days
 
 MEV 검색하기
+
+
+Addresses , Assets being trade, amount 
+
+1DEX
+4 Blocks
