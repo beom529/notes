@@ -109,3 +109,4 @@ APE Transaction
 
 Mempool
 
+Minimizing risk / transaction : Availability 
