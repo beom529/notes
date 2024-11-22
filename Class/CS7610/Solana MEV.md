@@ -129,3 +129,7 @@ Certain Leaders are dping this
 1 block -> 1 Leader
 
 4 blocks per validator
+
+7 days
+
+MEV 검색하기
