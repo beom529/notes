@@ -64,4 +64,42 @@ As long as less attackers in paths, it will work.
 
 History
 
-Full Transaction 
+Full Transaction
+
+
+Deterministic
+	Pattern
+		Large Transaction (Same Amount)	-> 2 Transaction -> From amount 
+		Could be 
+
+DEX
+	Comparing with that
+	MEV Cross ethereum -> 1 Exchange
+		Prices are Arbitrage will be between the exchanges
+	MEV different block chain
+	Most likley that's the case
+	Arbitrage
+	Same block -> 
+	Pattern
+
+1 Exchange
+	1. DEX Large Transaction > Exchange Price를 바꿀만큼 큰 건만 할수 있다
+	2. Arbitrage , Liquidation을 볼수 있을것이다 (Multiple Blocks, Same Transaction)
+	3. Assets that are
+	4. All the Trade on the exchange
+
+Large Transasction
+	Not the Magnitude
+	How the change compare to the transaction fee going to be 
+		Addresses and instructions
+	Data 대신에 데이터 포인터를 사용한다
+
+Solana program -> Instructions are different -> Account
+
+Query -> Voting on chain 
+
+Smaller space
+	Mempool 없이
+	Attack Surface? 
+
+Intrin
