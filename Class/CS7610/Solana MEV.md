@@ -118,3 +118,7 @@ Minimizing risk / transaction : Availability
 	Bots -> Fail 되명 VALIDATOR는 돈을 받지 않는다
 
 Validator가 돈을 번다
+
+
+Not the Validator's Address 
+1. Identify the validator
