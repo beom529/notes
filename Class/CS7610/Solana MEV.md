@@ -186,3 +186,31 @@ Transaction Detail Table (순서대로) 표시할수 있는건 전부 표시해�
 클릭한 Block의 메타 데이터
 
 전부 실시간으로 올라와야되
+
+Electron을 이용해서 Solana 어플리케이션을 만들고 있어 굉장히 단순한 프로그램인데 다음과 같은 기능이 동작해야되.
+
+1. Solana의 Websocket과 HTTP API를 이용해서 실시간으로 현재 Epoch,Slot,Block으로 불러와야되
+2. 불러온 데이터는 다음과 같게 화면에 표시 되야되
+	1. 왼쪽 윗 문단
+		현재 Epoch
+		현재 Block Number
+		현재 Leader
+	2. 왼쪽 중간문단
+		트리 형식으로 믿에 처럼 실시간으로 리스트를 만들어줘
+		Epoch 1
+		 ├─ Slot 0 ── Leader A ── Block 0
+		 ├─ Slot 1 ── Leader B ── Block 1
+		 ├─ Slot 2 ── Leader C ── Block 2
+		 └─ Slot 3 ── Leader D ── Block 3
+		실시간으로 블록이 추가 될때마다 자동으로 아래에 추가 되야되
+	1. 왼쪽 아랫문단
+		Transaction Detail Table (순서대로) 표시할수 있는건 전부 표시해줘 클릭한 Block의 데이터만 표시 하면되
+		Table 이 Dynamic 했으면 좋겠어 따른 라이브러리를 써도 되
+	4. 오른쪽 문단
+		클릭한 Block의 메타 데이터를 표시 해야되
+3. 추가적으로 Solana에서는 1 Validator가 4개의 Slot을 할당 받잖아 그래서 맨 밑에 버튼을 누르면 한 Validator가 만든 연속적인 블락의 모든 Transaction이 전부 append 되서 나와야되 그리고 위의 다이어그램에서도 Highlight 되야되.
+4. MEV 필터링 버튼이 있고 누르면 다음 Transaction이 하이라이트 되야되
+	1. A 가 B로 Transaction을 함 (amount : X)
+	2. 큰 Transaction이 있음
+	3. B 가 A로 Transaction (amount : X)
+5. 가능하면 코드를 별도의 파일에 분리하지 말고 한번에 작성해줘.
