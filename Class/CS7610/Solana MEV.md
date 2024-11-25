@@ -155,3 +155,14 @@ Epoch 1
  │
  └─ Slot 3 ── Leader D ── Block 3
                   └─ Transaction 6: User E → User F
+
+최대한 간단하게 다음 GUI프로그램을 Node를 이용해서 만들어줘.
+1. 왼쪽 위 : Current Epoch : {}
+2. 다음 문단 : 사각형 Canvas에 다음과 같은 도형을 실시간으로 그려야되
+	1. 제일 큰 사각형 은 Epoch 이고 왼쪽 위에 Epoch : {Epoch번호}가 떠야되
+	2. 그다음 작은 사각형이 제일 큰 사각형 위에 있어. 각각 사각형은 Slot 이고 Slot 번호가 떠야되 각 슬롯 은 선이 이어져 있어 []-[]-[] 이런 느낌
+	4. Slot 사각형 안에는 Block이 있고 Block 번호가 떠 마우스를 올리면 해당 Block에 대한 Metadata가 전부 오른쪽 단에 올라와
+3. 방금 문단의 오른쪽에는 Block 메타데이터 또는 마우스가 올라간 곳의 Metadata가 올라 와야되
+4. 아래 문단에는 마우스가 클릭한 블록의 Transaction이 차례대로 쭉 나와 (표)
+5. 방금 표 아래에는 "같은 Validator 묶기"버튼이 있어 이 버튼을 누르면 같은 Validator 가 만든 Block이 위 캔버스에 하이라이트 되고 아래 표에는 4개 Block의 Transaction 표가 Concat 되서 올라와
+데이터의 소스는 Solana public API HTTP,WS 전부 다 써야되 실시간으로 데이터를 불러 와야되.
