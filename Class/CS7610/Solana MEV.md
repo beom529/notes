@@ -167,9 +167,22 @@ Epoch 1
 5. 방금 표 아래에는 "같은 Validator 묶기"버튼이 있어 이 버튼을 누르면 같은 Validator 가 만든 Block이 위 캔버스에 하이라이트 되고 아래 표에는 4개 Block의 Transaction 표가 Concat 되서 올라와
 데이터의 소스는 Solana public API HTTP,WS 전부 다 써야되 실시간으로 데이터를 불러 와야되.
 
+왼쪽 윗 문단
+현재 Epoch
+현재 Block
 
+왼쪽 중간문단
+파일트리 형식으로 믿에 처럼 실시간으로 리스트를 만들어줘
 Epoch 1
  ├─ Slot 0 ── Leader A ── Block 0
  ├─ Slot 1 ── Leader B ── Block 1
  ├─ Slot 2 ── Leader C ── Block 2
  └─ Slot 3 ── Leader D ── Block 3
+
+왼쪽 아랫문단
+Transaction Detail Table (순서대로) 표시할수 있는건 전부 표시해줘
+
+오른쪽 문단
+클릭한 Block의 메타 데이터
+
+전부 실시간으로 올라와야되
