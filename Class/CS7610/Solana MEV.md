@@ -214,3 +214,6 @@ Electron을 이용해서 Solana 어플리케이션을 만들고 있어 굉장히
 	2. 큰 Transaction이 있음
 	3. B 가 A로 Transaction (amount : X)
 5. 가능하면 코드를 별도의 파일에 분리하지 말고 한번에 작성해줘.
+
+
+Bitquery API 를 이용해서 Solana의 MEV를 탐지 할려고 해. 현재 계획은 Sandwichi, Back-running, Front-running을 탐지할려고 하고, graphQL을 사용하고 싶어 코드를 만들어줘. 컨셉은 Solana는 1 Node가 4개의 연속된 Slot을 받잖아. 이 4개의 Slot의 Transaction을 Concat 해서 MEV Transaction을 찾고 싶어, 파이선 코드를 만들어줘.
