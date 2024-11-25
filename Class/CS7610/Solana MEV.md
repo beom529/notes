@@ -139,3 +139,19 @@ Addresses , Assets being trade, amount
 
 1DEX
 4 Blocks
+
+
+Epoch 1
+ ├─ Slot 0 ── Leader A ── Block 0
+ │                └─ Transaction 1: User A → User B
+ │                └─ Transaction 2: User C → User D
+ │
+ ├─ Slot 1 ── Leader B ── Block 1
+ │                └─ Transaction 3: 스마트 계약 실행
+ │                └─ Transaction 4: User X → User Y
+ │
+ ├─ Slot 2 ── Leader C ── Block 2
+ │                └─ Transaction 5: User Z → User W
+ │
+ └─ Slot 3 ── Leader D ── Block 3
+                  └─ Transaction 6: User E → User F
