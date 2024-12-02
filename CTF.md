@@ -28,3 +28,7 @@ Qualifier 48 Hours 열리는데 2,3시간만 열린다
 Too many transaction pers
 
 내가 이해한 바로는, Solana에서는 개별 Transaction만 Atomic 하게 처리되는데 만약에 사용자가 여러 Transaction을 RPC를 통해서 솔라나네트워크에 뿌리면 여러 Transaction이 언제 누가 먼저 실행될지 모르는 거잖아? 그럼 사용자가 JitoSolana를 사용해서 여러 Transaction을 차례대로 묶어서 순차적으로 실행 하는게 Jito Solana의 작동방식이야?
+
+1. Difficutiles Data Analysis in Solana
+2. Cut a lot of
+	1. Collecting the data
