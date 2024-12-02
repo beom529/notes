@@ -22,4 +22,7 @@ Qualifier 48 Hours 열리는데 2,3시간만 열린다
 	2. 
 
 1. Platform >
-2. 
+
+
+
+Too many transaction pers
