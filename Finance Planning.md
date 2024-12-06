@@ -17,7 +17,7 @@ Other than the following entities, individuals take care of their finances.
 | Loan         | Car                        | PNC Joint Checking -       | Every Month   | Half       |           |
 | Saving       | Emergency Fund             | HYSA                       |               |            | 250       |
 |              | Long Term Savings          | Vanguard - S&P             |               |            | 250       |
-|              |                            |                            |               |            |           |
+| Total        |                            |                            |               |            |           |
 # Family Expense
 1. **Anything that uses ACH**
 	MUST Discuss and record in the shared document, including 
