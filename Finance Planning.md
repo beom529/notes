@@ -16,7 +16,7 @@ Other than the following entities, individuals take care of their finances.
 |              | ?                          |                            |               |            |           |
 | Loan         | Car                        | PNC Joint Checking -       | Every Month   | Half       |           |
 | Saving       | Emergency Fund             | HYSA                       |               |            | 250       |
-|              | Long Term Savings          | Vanguard                   |               |            | 250       |
+|              | Long Term Savings          | Vanguard - S&P             |               |            | 250       |
 |              |                            |                            |               |            |           |
 # Family Expense
 1. **Anything that uses ACH**
