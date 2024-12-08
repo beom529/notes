@@ -12,6 +12,7 @@ Netbox
 	admin
 	jun777
 
+
 | SSID                 | Password                     |
 | -------------------- | ---------------------------- |
 | ONE                  | MErlPVX1S8Jq94YzYKzki6xPnGkK |
@@ -21,3 +22,4 @@ Camera
 rtsp://thingino:thingino@169.254.0.2:554/ch0
 rtsp://thingino:thingino@169.254.0.2/ch1
 thingino/thingino
+root/j
